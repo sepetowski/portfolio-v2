@@ -1,15 +1,8 @@
 import React from 'react';
-import { ThemeSwitcher } from '@/components/themeSwitcher/ThemeSwitcher';
-import { useTranslations } from 'next-intl';
+import { Home } from '@/components/pages/home/Home';
 
 export const HomePage = () => {
-	const t = useTranslations('INDEX');
-	return (
-		<>
-			<h1>{t('TITLE')}</h1>
-			<ThemeSwitcher />;
-		</>
-	);
+	return <Home />;
 };
 
 export default HomePage;

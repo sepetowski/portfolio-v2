@@ -22,7 +22,7 @@ export default function RootLayout({
 
 	return (
 		<html suppressHydrationWarning lang={locale} className='dark'>
-			<body className={inter.className}>
+			<body className={`${inter.className}`}>
 				<NextIntlClientProvider locale={locale} messages={messages}>
 					<NextUi>
 						<NextTheme>{children}</NextTheme>
