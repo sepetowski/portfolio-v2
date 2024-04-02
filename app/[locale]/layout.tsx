@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import { NextUi } from '@/providers/NextUi';
 import { NextTheme } from '@/providers/NextTheme';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { Nav } from '@/components/nav/Nav';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,7 +26,10 @@ export default function RootLayout({
 			<body className={`${inter.className}`}>
 				<NextIntlClientProvider locale={locale} messages={messages}>
 					<NextUi>
-						<NextTheme>{children}</NextTheme>
+						<NextTheme>
+							<Nav />
+							{children}
+						</NextTheme>
 					</NextUi>
 				</NextIntlClientProvider>
 			</body>

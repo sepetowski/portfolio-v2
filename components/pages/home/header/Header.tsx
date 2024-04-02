@@ -4,6 +4,7 @@ import { AuroraBackground } from '@/components/ui/AuroraBackground';
 import { Wrapper } from '@/components/ui/Wrapper';
 import { Button } from '@nextui-org/react';
 import { MoveRight } from 'lucide-react';
+import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
 
 export const Header = () => {
 	return (
@@ -23,9 +24,12 @@ export const Header = () => {
 							web developer
 						</p>
 					</h1>
-					<p className='w-full text-2xl text-default-400    '>
-						Building bridges between imagination and technology.
-					</p>
+
+					<TextGenerateEffect
+						className='w-full text-2xl text-default-400'
+						words={'Building bridges between imagination and technology.'}
+					/>
+
 					<div className='flex items-center gap-4'>
 						<Button className='rounded-3xl' size='lg' color='primary' variant='ghost'>
 							View my work
