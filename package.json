@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.10",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.24",
     "lucide-react": "^0.364.0",

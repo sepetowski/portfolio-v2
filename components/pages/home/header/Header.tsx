@@ -3,8 +3,8 @@ import React from 'react';
 import { AuroraBackground } from '@/components/ui/AuroraBackground';
 import { Wrapper } from '@/components/ui/Wrapper';
 import { Button } from '@nextui-org/react';
-import { MoveRight } from 'lucide-react';
 import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
+import { Link } from '@/navigation';
 
 export const Header = () => {
 	return (
@@ -31,10 +31,16 @@ export const Header = () => {
 					/>
 
 					<div className='flex items-center gap-4'>
-						<Button className='rounded-3xl' size='lg' color='primary' variant='ghost'>
+						<Button
+							href='/'
+							as={Link}
+							className='rounded-3xl'
+							size='lg'
+							color='primary'
+							variant='ghost'>
 							View my work
 						</Button>
-						<Button className='rounded-3xl' size='lg' variant='ghost'>
+						<Button href='/' as={Link} className='rounded-3xl' size='lg' variant='ghost'>
 							About me
 						</Button>
 					</div>
