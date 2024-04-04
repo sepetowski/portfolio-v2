@@ -9,9 +9,10 @@ import {
 	NavbarMenu,
 	NavbarMenuItem,
 } from '@nextui-org/react';
-import { Link } from '@/navigation';
-import { ThemeSwitcher } from '../themeSwitcher/ThemeSwitcher';
-import { LocaleSwitcher } from '../localeSwitcher/LocaleSwitcher';
+
+import { ThemeSwitcher } from '@/components/themeSwitcher/ThemeSwitcher';
+import { LocaleSwitcher } from '@/components/localeSwitcher/LocaleSwitcher';
+import { Link } from '@/components/ui/Link';
 
 export const Nav = () => {
 	const [movedFromTop, setMovedFromTop] = useState(false);
@@ -33,22 +34,32 @@ export const Nav = () => {
 			}`}>
 			<NavbarContent className='sm:hidden pr-3 ' justify='start'>
 				<NavbarBrand>
-					<p className='font-bold text-inherit'>Sepetowski</p>
+					<Link href='/' className='font-bold text-inherit'>
+						Sepetowski
+					</Link>
 				</NavbarBrand>
 			</NavbarContent>
 
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
 				<NavbarBrand>
-					<p className='font-bold text-inherit'>Sepetowski</p>
+					<Link href='/' className='font-bold text-inherit'>
+						Sepetowski
+					</Link>
 				</NavbarBrand>
-				<NavbarItem>
-					<Link href='/'>Work</Link>
+				<NavbarItem className='font-extralight'>
+					<Link underline='hover' href='/'>
+						Work
+					</Link>
 				</NavbarItem>
-				<NavbarItem>
-					<Link href='/'>About me</Link>
+				<NavbarItem className='font-extralight'>
+					<Link underline='hover' href='/'>
+						About me
+					</Link>
 				</NavbarItem>
-				<NavbarItem>
-					<Link href='/'>Contact</Link>
+				<NavbarItem className='font-extralight'>
+					<Link underline='hover' href='/'>
+						Contact
+					</Link>
 				</NavbarItem>
 			</NavbarContent>
 
@@ -66,17 +77,17 @@ export const Nav = () => {
 			</NavbarContent>
 
 			<NavbarMenu>
-				<NavbarMenuItem>
+				<NavbarMenuItem className='font-extralight'>
 					<Link className='w-full' href='/'>
 						Work
 					</Link>
 				</NavbarMenuItem>
-				<NavbarMenuItem>
+				<NavbarMenuItem className='font-extralight'>
 					<Link className='w-full' href='/'>
 						About me
 					</Link>
 				</NavbarMenuItem>
-				<NavbarMenuItem>
+				<NavbarMenuItem className='font-extralight'>
 					<Link className='w-full' href='/'>
 						Contact
 					</Link>
