@@ -11,7 +11,12 @@ export const Footer = () => {
 					<Link color='foreground' href={'/'}>
 						© 2024 Sepetwowski
 					</Link>
-					<Link color='foreground' isExternal href={'/'} showAnchorIcon anchorIcon={<VercelLogo />}>
+					<Link
+						color='foreground'
+						isExternal
+						href={'https://vercel.com/'}
+						showAnchorIcon
+						anchorIcon={<VercelLogo />}>
 						Depoyed on
 					</Link>
 					<div className='space-x-4 font-extralight'>

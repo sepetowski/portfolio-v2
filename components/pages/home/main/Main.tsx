@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from '@nextui-org/react';
 import { Wrapper } from '@/components/ui/Wrapper';
-import { RecentWorkCard } from './RecentWorkCard';
+import { RecentWorkCardContainer } from './RecentWorkCardContainer';
 
 export const Main = () => {
 	return (
@@ -15,11 +15,7 @@ export const Main = () => {
 					<Divider className='w-80' />
 				</div>
 
-				<div className='mt-10 flex  items-center gap-8 '>
-					<RecentWorkCard />
-					<RecentWorkCard />
-					<RecentWorkCard />
-				</div>
+				<RecentWorkCardContainer />
 			</Wrapper>
 		</main>
 	);
