@@ -13,10 +13,13 @@ import {
 import { ThemeSwitcher } from '@/components/themeSwitcher/ThemeSwitcher';
 import { LocaleSwitcher } from '@/components/localeSwitcher/LocaleSwitcher';
 import { Link } from '@/components/ui/Link';
+import { usePathname } from '@/navigation';
 
 export const Nav = () => {
 	const [movedFromTop, setMovedFromTop] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
+
+	const pathname = usePathname();
 
 	return (
 		<Navbar
@@ -47,7 +50,10 @@ export const Nav = () => {
 					</Link>
 				</NavbarBrand>
 				<NavbarItem className='font-extralight'>
-					<Link underline='hover' href='/'>
+					<Link
+						color={pathname === '/work' ? 'primary' : 'foreground'}
+						underline='hover'
+						href='/work'>
 						Work
 					</Link>
 				</NavbarItem>
@@ -78,7 +84,7 @@ export const Nav = () => {
 
 			<NavbarMenu>
 				<NavbarMenuItem className='font-extralight'>
-					<Link className='w-full' href='/'>
+					<Link className='w-full' href='/work'>
 						Work
 					</Link>
 				</NavbarMenuItem>

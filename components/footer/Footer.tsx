@@ -1,9 +1,12 @@
+'use client';
 import React from 'react';
 import { Wrapper } from '@/components/ui/Wrapper';
 import { Link } from '@/components/ui/Link';
 import { VercelLogo } from '../svg/VercelLogo';
+import { usePathname } from '@/navigation';
 
 export const Footer = () => {
+	const pathname = usePathname();
 	return (
 		<footer className='border-t border-default-100 bg-background  py-10 mt-40 '>
 			<Wrapper>
@@ -20,7 +23,10 @@ export const Footer = () => {
 						Depoyed on
 					</Link>
 					<div className='space-x-4 font-extralight'>
-						<Link underline='hover' color='foreground' href={'/'}>
+						<Link
+							underline='hover'
+							color={pathname === '/work' ? 'primary' : 'foreground'}
+							href={'/work'}>
 							Work
 						</Link>
 						<Link underline='hover' color='foreground' href={'/'}>
