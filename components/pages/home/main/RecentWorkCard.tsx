@@ -11,7 +11,6 @@ interface Props {
 }
 
 export const RecentWorkCard = ({ card: { alt, linkHref, src, subTitle, title }, theme }: Props) => {
-	console.log(theme);
 	return (
 		<Card isFooterBlurred className='aspect-video w-full max-w-[35rem] col-span-12 sm:col-span-7  '>
 			<Image
