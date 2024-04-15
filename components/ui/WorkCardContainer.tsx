@@ -17,7 +17,7 @@ export const WorkCardContainer = ({ workCards }: Props) => {
 	}, [theme]);
 
 	return (
-		<div className='mt-10  '>
+		<div className='mt-10 lg:mt-12  '>
 			<div
 				className={` flex-wrap justify-center items-center gap-8 ${
 					variant === 'dark' ? 'flex' : 'hidden'

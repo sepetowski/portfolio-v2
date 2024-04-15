@@ -34,7 +34,7 @@ export const TextGenerateEffect = ({ words, className }: { words: string; classN
 	};
 
 	return (
-		<div className={cn('text-primary-foreground text-2xl ', className)}>
+		<div className={cn('text-primary-foreground  ', className)}>
 			<div className=' '>{renderWords()}</div>
 		</div>
 	);
