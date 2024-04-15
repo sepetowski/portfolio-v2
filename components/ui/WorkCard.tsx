@@ -3,17 +3,18 @@ import { Card, CardFooter, Image, Button } from '@nextui-org/react';
 import { Link } from '@/navigation';
 import { ArrowRight } from 'lucide-react';
 import NextImage from 'next/image';
-import { RecentWorkCard as IRecentWorkCard } from '@/types/types';
+import { WorkCard as IWorkCard } from '@/types/types';
 
 interface Props {
-	card: IRecentWorkCard;
+	card: IWorkCard;
 	theme: 'dark' | 'light';
 }
 
-export const RecentWorkCard = ({ card: { alt, linkHref, src, subTitle, title }, theme }: Props) => {
+export const WorkCard = ({ card: { alt, linkHref, src, subTitle, title }, theme }: Props) => {
 	return (
 		<Card isFooterBlurred className='aspect-video w-full max-w-[35rem] col-span-12 sm:col-span-7  '>
 			<Image
+				priority
 				width={1500}
 				height={1200}
 				as={NextImage}

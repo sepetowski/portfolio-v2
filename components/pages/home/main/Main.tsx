@@ -1,8 +1,8 @@
 import React from 'react';
 import { Divider } from '@nextui-org/react';
 import { Wrapper } from '@/components/ui/Wrapper';
-import { RecentWorkCardContainer } from './RecentWorkCardContainer';
-
+import { WorkCardContainer } from '../../../ui/WorkCardContainer';
+import { RECENT_WORKS } from '@/lib/constants';
 export const Main = () => {
 	return (
 		<main className='mt-20 py-10 w-full '>
@@ -15,7 +15,7 @@ export const Main = () => {
 					<Divider className='w-80' />
 				</div>
 
-				<RecentWorkCardContainer />
+				<WorkCardContainer workCards={RECENT_WORKS} />
 			</Wrapper>
 		</main>
 	);

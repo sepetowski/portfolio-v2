@@ -1,4 +1,4 @@
-export interface RecentWorkCard {
+export interface WorkCard {
 	alt: string;
 	src: string;
 	linkHref: string;
