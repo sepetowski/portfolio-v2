@@ -1,4 +1,4 @@
-import { WorkCard } from '@/types/types';
+import { StackCard, WorkCard } from '@/types/types';
 
 export const RECENT_WORKS: WorkCard[] = [
 	{
@@ -74,4 +74,12 @@ export const MY_ALL_WORKS: WorkCard[] = [
 		linkHref: '/',
 		src: '/images/kiviPreview',
 	},
+];
+
+export const MY_STACK: StackCard[] = [
+	{ alt: 'HTML', src: '/svg/html.svg' },
+	{ alt: 'HTML', src: '/svg/html.svg' },
+	{ alt: 'HTML', src: '/svg/html.svg' },
+	{ alt: 'HTML', src: '/svg/html.svg' },
+	{ alt: 'HTML', src: '/svg/html.svg' },
 ];

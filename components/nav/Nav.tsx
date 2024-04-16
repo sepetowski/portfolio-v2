@@ -58,7 +58,10 @@ export const Nav = () => {
 					</Link>
 				</NavbarItem>
 				<NavbarItem className='font-extralight'>
-					<Link underline='hover' href='/'>
+					<Link
+						color={pathname === '/about' ? 'primary' : 'foreground'}
+						underline='hover'
+						href='/about'>
 						About me
 					</Link>
 				</NavbarItem>

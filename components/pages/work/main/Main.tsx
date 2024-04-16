@@ -1,8 +1,8 @@
+import React from 'react';
 import { WorkCardContainer } from '@/components/ui/WorkCardContainer';
 import { Wrapper } from '@/components/ui/Wrapper';
 import { MY_ALL_WORKS } from '@/lib/constants';
 import { Divider } from '@nextui-org/react';
-import React from 'react';
 
 export const Main = () => {
 	return (

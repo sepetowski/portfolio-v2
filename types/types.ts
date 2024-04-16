@@ -5,3 +5,9 @@ export interface WorkCard {
 	title: string;
 	subTitle: string;
 }
+
+export interface StackCard {
+	alt: string;
+	src: string;
+	tooltipInfo: string;
+}

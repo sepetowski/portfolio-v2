@@ -11,15 +11,16 @@ export const Header = () => {
 			<Wrapper>
 				<div className='h-full flex flex-col  gap-4 md:gap-6 xl:gap-8 items-center justify-center text-center w-full '>
 					<h1 className=' text-3xl sm:text-4xl md:text-5xl xl:text-7xl tracking-tight font-semibold '>
-						Chcek out some of my{' '}
+						Do{' '}
 						<span className='tracking-tight inline  from-[#1c95ff] to-[rgb(73,102,248)]   text-3xl sm:text-4xl md:text-5xl xl:text-7xl bg-clip-text text-transparent bg-gradient-to-b'>
-							coolest
+							you
 						</span>
 						<p>
+							want to{' '}
 							<span className='tracking-tight inline  from-[#1c95ff] to-[rgb(73,102,248)] text-3xl sm:text-4xl md:text-5xl xl:text-7xl bg-clip-text text-transparent bg-gradient-to-b'>
-								projcets
+								know me
 							</span>{' '}
-							that I have build
+							better?
 						</p>
 					</h1>
 
@@ -32,7 +33,7 @@ export const Header = () => {
 						className='rounded-3xl  px-unit-4 min-w-unit-18 h-unit-9 text-tiny gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 						color='primary'
 						variant='ghost'>
-						Check out
+						Check my tools
 					</Button>
 				</div>
 			</Wrapper>
