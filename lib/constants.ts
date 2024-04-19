@@ -1,4 +1,5 @@
-import { StackCard, WorkCard } from '@/types/types';
+import { AboutMeCard, StackCard, WorkCard } from '@/types/types';
+import { Book, Code, Gamepad2 } from 'lucide-react';
 
 export const RECENT_WORKS: WorkCard[] = [
 	{
@@ -98,4 +99,22 @@ export const MY_STACK: StackCard[] = [
 	{ alt: 'Github', src: '/svg/github.svg', needBgc: true },
 	{ alt: 'Visual Studio Code', src: '/svg/vscode.svg' },
 	{ alt: 'Visual Studio', src: '/svg/viusalStudio.svg' },
+];
+
+export const ABOUT_ME_CARDS: AboutMeCard[] = [
+	{
+		title: 'Student',
+		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
+		Icon: Book,
+	},
+	{
+		title: 'Hobby',
+		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
+		Icon: Gamepad2,
+	},
+	{
+		title: 'Programming',
+		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
+		Icon: Code,
+	},
 ];
