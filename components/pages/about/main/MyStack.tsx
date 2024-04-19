@@ -13,12 +13,8 @@ export const MyStack = () => {
 				</h2>
 				<Divider className='w-10 sm:w-16 md:w-40 lg:w-44   xl:w-80' />
 			</div>
-			{/* <p>
-				HTML, CSS, SASS, TAILWINDCSS, JS, TS, REACT, REACT ROUTER, REACT REDUX, ZUSTAND,
-				next.jsm,git, github prisma, zod, next-intl, axios, auth.js, trasctak query, shadcn/ui, sql,
-				postresql, c#, .net, npm, vs code, vs, vite
-			</p> */}
-			<div className='mt-10 lg:mt-12 flex gap-4 justify-center items-center flex-wrap'>
+
+			<div className='mt-10 lg:mt-12 flex gap-4 lg:gap-6 xl:gap-8 justify-center items-center flex-wrap'>
 				{MY_STACK.map((stack, i) => (
 					<StackCard key={i} details={stack} />
 				))}

@@ -6,10 +6,10 @@ interface Props {
 	details: IStackCard;
 }
 
-export const StackCard = ({ details: { alt, src } }: Props) => {
+export const StackCard = ({ details: { alt, src, needBgc } }: Props) => {
 	return (
 		<Tooltip content={alt}>
-			<div className='w-20 md:w-24 lg:w-28 '>
+			<div className={`w-20 md:w-24 lg:w-28 h-auto ${needBgc ? 'bg-white rounded-xl p-2' : ''} `}>
 				<Image
 					className='w-full h-full object-cover'
 					width={600}

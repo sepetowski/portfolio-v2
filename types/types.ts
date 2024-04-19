@@ -9,5 +9,5 @@ export interface WorkCard {
 export interface StackCard {
 	alt: string;
 	src: string;
-	tooltipInfo: string;
+	needBgc?: boolean;
 }

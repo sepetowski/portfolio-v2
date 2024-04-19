@@ -33,13 +33,7 @@ export const LocaleSwitcher = () => {
 	}, [locale]);
 
 	return (
-		<Dropdown
-			classNames={{
-				content:
-					'py-1 px-1 border border-default-200 bg-gradient-to-br from-white to-default-200 dark:from-default-50 dark:to-black',
-			}}
-			isDisabled={isPending}
-			placement='bottom-end'>
+		<Dropdown isDisabled={isPending} placement='bottom-end'>
 			<DropdownTrigger>
 				<Button className='cursor-pointer' variant='light' size='sm' isIconOnly>
 					{isPending ? <Spinner size='sm' /> : locale.toUpperCase()}
