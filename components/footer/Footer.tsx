@@ -38,7 +38,11 @@ export const Footer = () => {
 							href={'/'}>
 							About me
 						</Link>
-						<Link className='text-sm md:text-base' underline='hover' color='foreground' href={'/'}>
+						<Link
+							color={pathname === '/contact' ? 'primary' : 'foreground'}
+							className='text-sm md:text-base'
+							underline='hover'
+							href={'/contact'}>
 							Contact
 						</Link>
 					</div>

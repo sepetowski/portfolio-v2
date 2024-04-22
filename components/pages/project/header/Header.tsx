@@ -21,14 +21,14 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 		<AuroraBackground>
 			<Wrapper className='mt-60'>
 				<div className='h-full flex flex-col gap-4 md:gap-6 xl:gap-8 items-center justify-end text-center  w-full '>
-					<h1 className='text-3xl sm:text-4xl md:text-5xl xl:text-7xl tracking-tight font-semibold '>
+					<h1 className='text-4xl md:text-5xl xl:text-7xl tracking-tight font-semibold '>
 						{overview.firstSection}{' '}
-						<span className='tracking-tight inline  from-[#1c95ff] to-[rgb(73,102,248)]   text-3xl sm:text-4xl md:text-5xl xl:text-7xl bg-clip-text text-transparent bg-gradient-to-b'>
+						<span className='tracking-tight inline  from-[#1c95ff] to-[rgb(73,102,248)]   text-4xl md:text-5xl xl:text-7xl bg-clip-text text-transparent bg-gradient-to-b'>
 							{overview.secondSection}
 						</span>
 						<p>
 							{overview.thirdSection}{' '}
-							<span className='tracking-tight inline  from-[#1c95ff] to-[rgb(73,102,248)] text-3xl sm:text-4xl md:text-5xl xl:text-7xl bg-clip-text text-transparent bg-gradient-to-b'>
+							<span className='tracking-tight inline  from-[#1c95ff] to-[rgb(73,102,248)] text-4xl md:text-5xl xl:text-7xl bg-clip-text text-transparent bg-gradient-to-b'>
 								{overview.fourthSection}
 							</span>{' '}
 							{overview.fifthSection}
@@ -39,7 +39,7 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 							target='_blank'
 							href={liveLink}
 							as={Link}
-							className='rounded-3xl  px-unit-4 min-w-unit-18 h-unit-9 text-tiny gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
+							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 							color='primary'
 							variant='ghost'>
 							Try it out!
@@ -48,7 +48,7 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 							target='_blank'
 							href={repoLink}
 							as={Link}
-							className='rounded-3xl  px-unit-4 min-w-unit-18 h-unit-9 text-tiny gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
+							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 							variant='ghost'>
 							Repo code
 						</Button>

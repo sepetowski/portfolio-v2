@@ -66,7 +66,10 @@ export const Nav = () => {
 					</Link>
 				</NavbarItem>
 				<NavbarItem className='font-extralight'>
-					<Link underline='hover' href='/'>
+					<Link
+						color={pathname === '/contact' ? 'primary' : 'foreground'}
+						underline='hover'
+						href='/contact'>
 						Contact
 					</Link>
 				</NavbarItem>
@@ -92,12 +95,12 @@ export const Nav = () => {
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem className='font-extralight'>
-					<Link className='w-full' href='/'>
+					<Link className='w-full' href='/about'>
 						About me
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem className='font-extralight'>
-					<Link className='w-full' href='/'>
+					<Link className='w-full' href='/contact'>
 						Contact
 					</Link>
 				</NavbarMenuItem>
