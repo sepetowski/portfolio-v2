@@ -1,5 +1,5 @@
-import { AboutMeCard, StackCard, WorkCard } from '@/types/types';
-import { Book, Code, Gamepad2 } from 'lucide-react';
+import { CardReveal, StackCard, WorkCard } from '@/types/types';
+import { Book, Code, CpuIcon, Gamepad2 } from 'lucide-react';
 
 export const RECENT_WORKS: WorkCard[] = [
 	{
@@ -101,7 +101,7 @@ export const MY_STACK: StackCard[] = [
 	{ alt: 'Visual Studio', src: '/svg/viusalStudio.svg' },
 ];
 
-export const ABOUT_ME_CARDS: AboutMeCard[] = [
+export const ABOUT_ME_CARDS: CardReveal[] = [
 	{
 		title: 'Student',
 		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
@@ -116,5 +116,16 @@ export const ABOUT_ME_CARDS: AboutMeCard[] = [
 		title: 'Programming',
 		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
 		Icon: Code,
+	},
+];
+
+export const FEATURES_ICONS = [
+	{
+		title: 'JustNoted',
+		icons: [Book, Code, Gamepad2, Book, Code, Gamepad2, Book, Code, Gamepad2],
+	},
+	{
+		title: 'StudyFlow',
+		icons: [Book, Code, Code],
 	},
 ];

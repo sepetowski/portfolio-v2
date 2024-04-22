@@ -10,7 +10,7 @@ interface Props {
 	children?: React.ReactNode;
 }
 
-export const AboutMeCard = ({ desc, Icon, title, children }: Props) => {
+export const CardReveal = ({ desc, Icon, title, children }: Props) => {
 	const [hovered, setHovered] = useState(false);
 	return (
 		<div

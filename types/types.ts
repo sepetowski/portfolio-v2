@@ -14,8 +14,31 @@ export interface StackCard {
 	needBgc?: boolean;
 }
 
-export interface AboutMeCard {
+export interface CardReveal {
 	title: string;
 	Icon: LucideIcon;
 	desc: string;
+}
+
+export interface ProjectTitle {
+	firstSection: string;
+	secondSection: string;
+	thirdSection: string;
+	fourthSection: string;
+	fifthSection: string;
+}
+
+export interface Feature {
+	title: string;
+	desc: string;
+}
+
+export interface ProjectPageInfo {
+	title: string;
+	overview: ProjectTitle;
+	technologies: StackCard[];
+	repoLink: string;
+	liveLink: string;
+	imagesLinks: string[];
+	features: Feature[];
 }
