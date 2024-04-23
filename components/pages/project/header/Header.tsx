@@ -14,7 +14,7 @@ interface Props {
 	title: string;
 	overview: ProjectTitle;
 	imageLink: string[];
-	liveLink: string;
+	liveLink: string | null;
 	repoLink: string;
 }
 
@@ -42,15 +42,18 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 						words={'Passionately crafted with heart and soul.'}
 					/>
 					<div className='flex items-center gap-4'>
-						<Button
-							target='_blank'
-							href={liveLink}
-							as={Link}
-							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
-							color='primary'
-							variant='ghost'>
-							Try it out!
-						</Button>
+						{liveLink && (
+							<Button
+								target='_blank'
+								href={liveLink}
+								as={Link}
+								className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
+								color='primary'
+								variant='ghost'>
+								Try it out!
+							</Button>
+						)}
+
 						<Button
 							target='_blank'
 							href={repoLink}

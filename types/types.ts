@@ -38,7 +38,7 @@ export interface ProjectPageInfo {
 	overview: ProjectTitle;
 	technologies: StackCard[];
 	repoLink: string;
-	liveLink: string;
+	liveLink: string | null;
 	imagesLinks: string[];
 	features: Feature[];
 }
