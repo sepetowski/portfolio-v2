@@ -158,6 +158,102 @@
 			"repoLink": "https://github.com/sepetowski/kivi",
 			"liveLink": "https://kivi-app.vercel.app",
 			"imagesLinks": ["/images/kiviPreview-dark.png", "/images/kiviPreview-light.png"]
+		},
+		{
+			"title": "Portfolio",
+			"features": [
+				{
+					"title": "Two languages support",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "It looks nice",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "It looks nice",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "have all",
+				"thirdSection": "your thoughts",
+				"fourthSection": "in one",
+				"fifthSection": "place?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/kivi",
+			"liveLink": "https://kivi-app.vercel.app",
+			"imagesLinks": ["/images/kiviPreview-dark.png", "/images/kiviPreview-light.png"]
+		},
+		{
+			"title": "JustNoted",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Profile customization",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Notes",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Notes edit hisotry",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Integrated calendar",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Trash system",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "have all",
+				"thirdSection": "your thoughts",
+				"fourthSection": "in one",
+				"fifthSection": "place?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "React Redux", "src": "/svg/redux.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/justNoted",
+			"liveLink": "https://justnoted-3c406.web.app/",
+			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
 		}
 	]
 }

@@ -6,6 +6,7 @@ import {
 	BookMarked,
 	Calendar,
 	Code,
+	FileClock,
 	Folder,
 	Gamepad2,
 	Globe,
@@ -16,6 +17,7 @@ import {
 	Palette,
 	PencilRuler,
 	Tags,
+	Trash,
 	UserPlus,
 	UserSearch,
 	UsersRound,
@@ -112,6 +114,7 @@ export const MY_STACK: StackCard[] = [
 	{ alt: 'Next.js', src: '/svg/nextjs.svg', needBgc: true },
 	{ alt: 'Zod', src: '/svg/zod.svg' },
 	{ alt: 'Zustand', src: '/images/zustand.png' },
+	{ alt: 'Framer motion', src: '/svg/framerMotion.svg' },
 	{ alt: 'React Router', src: '/svg/router.svg', needBgc: true },
 	{ alt: 'React Redux', src: '/svg/redux.svg' },
 	{ alt: 'React Flow', src: '/svg/reactFlow.svg', needBgc: true },
@@ -126,6 +129,7 @@ export const MY_STACK: StackCard[] = [
 	{ alt: 'Npm', src: '/svg/npm.svg' },
 	{ alt: 'Git', src: '/svg/git.svg' },
 	{ alt: 'Github', src: '/svg/github.svg', needBgc: true },
+	{ alt: 'Vite', src: '/svg/vitejs.svg' },
 	{ alt: 'Visual Studio Code', src: '/svg/vscode.svg' },
 	{ alt: 'Visual Studio', src: '/svg/viusalStudio.svg' },
 ];
@@ -181,7 +185,11 @@ export const FEATURES_ICONS = [
 		],
 	},
 	{
+		title: 'Portfolio',
+		icons: [Globe, Palette],
+	},
+	{
 		title: 'JustNoted',
-		icons: [Book, Code, Gamepad2, Book, Code, Gamepad2, Book, Code, Gamepad2],
+		icons: [KeyRound, Palette, PencilRuler, FileClock, Calendar, Trash],
 	},
 ];
