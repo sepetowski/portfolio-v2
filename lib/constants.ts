@@ -13,6 +13,8 @@ import {
 	HandHeart,
 	Images,
 	KeyRound,
+	Map,
+	MapPin,
 	MessageSquare,
 	Palette,
 	PencilRuler,
@@ -191,5 +193,13 @@ export const FEATURES_ICONS = [
 	{
 		title: 'JustNoted',
 		icons: [KeyRound, Palette, PencilRuler, FileClock, Calendar, Trash],
+	},
+	{
+		title: 'Natalia-website',
+		icons: [Images],
+	},
+	{
+		title: 'TravelMark',
+		icons: [Map, Globe, MapPin],
 	},
 ];
