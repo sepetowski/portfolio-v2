@@ -1,13 +1,13 @@
 import createMiddleware from 'next-intl/middleware';
-import { locales } from './i18n';
+import { localePrefix, locales } from './navigation';
 
 export default createMiddleware({
 	locales,
 	defaultLocale: 'en',
 	localeDetection: false,
-	localePrefix: 'as-needed',
+	localePrefix,
 });
 
 export const config = {
-	matcher: ['/', '/(pl|en)/:path*'],
+	matcher: ['/((?!api|_next|.*\\..*).*)'],
 };

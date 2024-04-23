@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google';
 import { NextUi } from '@/providers/NextUi';
 import { NextTheme } from '@/providers/NextTheme';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { Nav } from '@/components/nav/Nav';
+import { Footer } from '@/components/footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,10 +24,14 @@ export default function RootLayout({
 
 	return (
 		<html suppressHydrationWarning lang={locale} className='dark'>
-			<body className={inter.className}>
+			<body className={`${inter.className}`}>
 				<NextIntlClientProvider locale={locale} messages={messages}>
 					<NextUi>
-						<NextTheme>{children}</NextTheme>
+						<NextTheme>
+							<Nav />
+							{children}
+							<Footer />
+						</NextTheme>
 					</NextUi>
 				</NextIntlClientProvider>
 			</body>

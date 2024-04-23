@@ -3,6 +3,8 @@ import React from 'react';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 import { Button } from '@nextui-org/react';
+import { Switch } from '@nextui-org/react';
+import { MoonIcon, SunIcon } from 'lucide-react';
 
 export const ThemeSwitcher = () => {
 	const [mounted, setMounted] = useState(false);
@@ -15,16 +17,30 @@ export const ThemeSwitcher = () => {
 	if (!mounted) return null;
 
 	return (
-		<div>
-			<p>The current theme is: {theme}</p>
-			<div className='flex flex-col gap-2 '>
-				<Button color='primary' className='w-fit' onClick={() => setTheme('light')}>
-					Light Mode
+		<div className='flex gap-2 '>
+			{theme === 'dark' ? (
+				<Button
+					variant='light'
+					size='sm'
+					onClick={() => {
+						setTheme('light');
+					}}
+					isIconOnly
+					aria-label='change theme to light'>
+					<SunIcon size={16} />
 				</Button>
-				<Button className='w-fit' onClick={() => setTheme('dark')}>
-					Dark Mode
+			) : (
+				<Button
+					variant='light'
+					size='sm'
+					onClick={() => {
+						setTheme('dark');
+					}}
+					isIconOnly
+					aria-label='change theme to dark'>
+					<MoonIcon size={16} />
 				</Button>
-			</div>
+			)}
 		</div>
 	);
 };
