@@ -55,10 +55,10 @@
 			],
 			"overview": {
 				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"secondSection": "easily collaborate",
+				"thirdSection": "in projects",
+				"fourthSection": "and stay",
+				"fifthSection": "organized?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -130,11 +130,11 @@
 				}
 			],
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"firstSection": "Are you",
+				"secondSection": "searching",
+				"thirdSection": "someone",
+				"fourthSection": "to play",
+				"fifthSection": "with?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -176,11 +176,11 @@
 				}
 			],
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"firstSection": "Is this",
+				"secondSection": "the best",
+				"thirdSection": "portfolio site",
+				"fourthSection": "i have ever",
+				"fifthSection": "seen?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -322,6 +322,7 @@
 			"liveLink": "https://nataliaportfolio.web.app/",
 			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
 		},
+
 		{
 			"title": "TravelMark",
 			"features": [
@@ -338,12 +339,13 @@
 					"desc": "lorem lorem lorem lorem"
 				}
 			],
+
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"firstSection": "Do you love to",
+				"secondSection": "travel",
+				"thirdSection": "and plan",
+				"fourthSection": "your every",
+				"fifthSection": "trip?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -375,12 +377,13 @@
 					"desc": "lorem lorem lorem lorem"
 				}
 			],
+
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"firstSection": "Do you have",
+				"secondSection": "a taste",
+				"thirdSection": "for",
+				"fourthSection": "your favourite",
+				"fifthSection": "pizza?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -405,10 +408,10 @@
 			],
 			"overview": {
 				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"secondSection": "keep up to date",
+				"thirdSection": "with news",
+				"fourthSection": "in you",
+				"fifthSection": "country?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
