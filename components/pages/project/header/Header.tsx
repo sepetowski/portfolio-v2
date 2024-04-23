@@ -70,7 +70,7 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 								width={1500}
 								height={1200}
 								as={NextImage}
-								className={`w-full h-full object-cover ${variant === 'dark' ? 'block' : 'hidden'}`}
+								className={`w-full h-full object-cover ${variant === 'dark' ? '' : 'hidden'}`}
 								alt={title}
 								src={imageLink[0]}
 							/>
@@ -79,7 +79,7 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 								width={1500}
 								height={1200}
 								as={NextImage}
-								className={`w-full h-full object-cover ${variant === 'light' ? 'block' : 'hidden'}`}
+								className={`w-full h-full object-cover ${variant === 'light' ? '' : 'hidden'}`}
 								alt={title}
 								src={imageLink[1]}
 							/>

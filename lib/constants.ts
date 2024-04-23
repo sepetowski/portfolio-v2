@@ -3,16 +3,21 @@ import {
 	AlarmClockCheck,
 	Bell,
 	Book,
+	BookMarked,
 	Calendar,
 	Code,
 	Folder,
 	Gamepad2,
 	Globe,
+	HandHeart,
+	Images,
 	KeyRound,
 	MessageSquare,
+	Palette,
 	PencilRuler,
 	Tags,
 	UserPlus,
+	UserSearch,
 	UsersRound,
 	Workflow,
 } from 'lucide-react';
@@ -33,8 +38,6 @@ export const RECENT_WORKS: WorkCard[] = [
 		src: '/images/kiviPreview',
 	},
 ];
-
-//studyFlowa, Kivi, portfoilo, justNoted, portoflioNatalli, TravellMark, Recipe App, GnNews
 
 export const MY_ALL_WORKS: WorkCard[] = [
 	{
@@ -119,6 +122,7 @@ export const MY_STACK: StackCard[] = [
 	{ alt: 'NextAuth.js', src: '/images/nextAuth.png' },
 	{ alt: 'Firebase', src: '/svg/firebase.svg' },
 	{ alt: 'Supabase', src: '/svg/supabase.svg', needBgc: true },
+	{ alt: 'Pusher', src: '/images/pusher.png', needBgc: true },
 	{ alt: 'Npm', src: '/svg/npm.svg' },
 	{ alt: 'Git', src: '/svg/git.svg' },
 	{ alt: 'Github', src: '/svg/github.svg', needBgc: true },
@@ -160,6 +164,20 @@ export const FEATURES_ICONS = [
 			Bell,
 			Tags,
 			UserPlus,
+		],
+	},
+	{
+		title: 'Kivi',
+		icons: [
+			KeyRound,
+			UsersRound,
+			Images,
+			HandHeart,
+			Palette,
+			MessageSquare,
+			Bell,
+			UserSearch,
+			BookMarked,
 		],
 	},
 	{

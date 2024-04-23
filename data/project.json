@@ -85,6 +85,79 @@
 			"repoLink": "https://github.com/sepetowski/studyFlow",
 			"liveLink": "https://studyflow-app.vercel.app",
 			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+		},
+		{
+			"title": "Kivi",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Communities",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Posts & Comments",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Like & Dislike interactions ",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Profile customization",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Chats",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Notifications",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Explore tab",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Saved posts",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "have all",
+				"thirdSection": "your thoughts",
+				"fourthSection": "in one",
+				"fifthSection": "place?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "TanStack Query", "src": "/svg/reactQuery.svg" },
+				{ "alt": "NextAuth.js", "src": "/images/nextAuth.png" },
+				{ "alt": "Prisma", "src": "/svg/prisma.svg", "needBgc": true },
+				{ "alt": "PostgreSQL", "src": "/svg/postgreSql.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Pusher", "src": "/images/pusher.png", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/kivi",
+			"liveLink": "https://kivi-app.vercel.app",
+			"imagesLinks": ["/images/kiviPreview-dark.png", "/images/kiviPreview-light.png"]
 		}
 	]
 }
