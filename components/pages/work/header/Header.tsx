@@ -4,6 +4,7 @@ import { AuroraBackground } from '@/components/ui/AuroraBackground';
 import { Wrapper } from '@/components/ui/Wrapper';
 import { Button } from '@nextui-org/react';
 import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
+import { scrolltoHash } from '@/lib/utils';
 
 export const Header = () => {
 	return (
@@ -29,6 +30,9 @@ export const Header = () => {
 					/>
 
 					<Button
+						onClick={() => {
+							scrolltoHash('work', 'start');
+						}}
 						className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 						color='primary'
 						variant='ghost'>

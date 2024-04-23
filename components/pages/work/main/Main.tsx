@@ -8,15 +8,17 @@ export const Main = () => {
 	return (
 		<main className='lg:mt-20 py-6 lg:py-10 w-full '>
 			<Wrapper>
-				<div className='w-full flex justify-center items-center gap-6 '>
-					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />
-					<h2 className='text-default-400 uppercase sm:text-lg md:text-2xl  text-center inline-block '>
-						All of my projcets
-					</h2>
-					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />
-				</div>
+				<section id='work' className='py-4'>
+					<div className='w-full flex justify-center items-center gap-6 '>
+						<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />
+						<h2 className='text-default-400 uppercase sm:text-lg md:text-2xl  text-center inline-block '>
+							All of my projcets
+						</h2>
+						<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />
+					</div>
 
-				<WorkCardContainer workCards={MY_ALL_WORKS} />
+					<WorkCardContainer workCards={MY_ALL_WORKS} />
+				</section>
 			</Wrapper>
 		</main>
 	);

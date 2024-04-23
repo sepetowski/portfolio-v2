@@ -11,9 +11,10 @@ interface Props {
 	title: string;
 	cards: IStackCard[];
 	sparklesContainerClassName?: string;
+	id?: string;
 }
 
-export const MyStack = ({ cards, title, sparklesContainerClassName }: Props) => {
+export const MyStack = ({ cards, title, sparklesContainerClassName, id }: Props) => {
 	const [color, setColor] = useState('#FFFFFF');
 	const { theme } = useTheme();
 
@@ -21,7 +22,7 @@ export const MyStack = ({ cards, title, sparklesContainerClassName }: Props) => 
 		theme === 'dark' ? setColor('#FFFFFF') : setColor('#000000');
 	}, [theme]);
 	return (
-		<section className='w-full mt-10'>
+		<section id={id} className='w-full mt-6 py-4'>
 			<Wrapper>
 				<div className='w-full flex justify-center items-center gap-4 sm:gap-6 '>
 					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />

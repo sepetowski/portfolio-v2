@@ -40,7 +40,7 @@ export const Header = () => {
 							View my work
 						</Button>
 						<Button
-							href='/'
+							href='/about'
 							as={Link}
 							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 							variant='ghost'>

@@ -1,19 +1,19 @@
 import { CardReveal, StackCard, WorkCard } from '@/types/types';
-import { Book, Code, CpuIcon, Gamepad2 } from 'lucide-react';
+import { Book, Code, Gamepad2 } from 'lucide-react';
 
 export const RECENT_WORKS: WorkCard[] = [
 	{
 		title: 'StudyFlow',
 		subTitle: 'Increase your productivity',
 		alt: 'StudyFlow app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/studyFlowPreview',
 	},
 	{
 		title: 'Kivi',
 		subTitle: 'Social app for gamers',
 		alt: 'Kivi app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/kiviPreview',
 	},
 ];
@@ -23,56 +23,56 @@ export const MY_ALL_WORKS: WorkCard[] = [
 		title: 'StudyFlow',
 		subTitle: 'Increase your productivity',
 		alt: 'StudyFlow app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/studyFlowPreview',
 	},
 	{
 		title: 'Kivi',
 		subTitle: 'Social app for gamers',
 		alt: 'Kivi app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/kiviPreview',
 	},
 	{
 		title: 'StudyFlow',
 		subTitle: 'Increase your productivity',
 		alt: 'StudyFlow app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/studyFlowPreview',
 	},
 	{
 		title: 'Kivi',
 		subTitle: 'Social app for gamers',
 		alt: 'Kivi app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/kiviPreview',
 	},
 	{
 		title: 'StudyFlow',
 		subTitle: 'Increase your productivity',
 		alt: 'StudyFlow app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/studyFlowPreview',
 	},
 	{
 		title: 'Kivi',
 		subTitle: 'Social app for gamers',
 		alt: 'Kivi app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/kiviPreview',
 	},
 	{
 		title: 'StudyFlow',
 		subTitle: 'Increase your productivity',
 		alt: 'StudyFlow app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/studyFlowPreview',
 	},
 	{
 		title: 'Kivi',
 		subTitle: 'Social app for gamers',
 		alt: 'Kivi app',
-		linkHref: '/',
+		linkHref: '/work/JustNoted',
 		src: '/images/kiviPreview',
 	},
 ];

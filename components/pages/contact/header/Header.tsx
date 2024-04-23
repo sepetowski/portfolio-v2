@@ -5,6 +5,7 @@ import { Wrapper } from '@/components/ui/Wrapper';
 import { Button } from '@nextui-org/react';
 import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
 import { Link } from '@/navigation';
+import { scrolltoHash } from '@/lib/utils';
 
 export const Header = () => {
 	//Contact for Collaboration: Let's Make Magic Happen
@@ -30,23 +31,15 @@ export const Header = () => {
 						words={"Let's Make Magic Happen"}
 					/>
 
-					<div className='flex items-center gap-4'>
-						<Button
-							href='/work'
-							as={Link}
-							className='rounded-3xl px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
-							color='primary'
-							variant='ghost'>
-							View my work
-						</Button>
-						<Button
-							href='/about'
-							as={Link}
-							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
-							variant='ghost'>
-							About me
-						</Button>
-					</div>
+					<Button
+						onClick={() => {
+							scrolltoHash('contact', 'start');
+						}}
+						className='rounded-3xl px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
+						color='primary'
+						variant='ghost'>
+						Contact me
+					</Button>
 				</div>
 			</Wrapper>
 		</AuroraBackground>
