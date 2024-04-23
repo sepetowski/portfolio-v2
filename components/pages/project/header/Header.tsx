@@ -7,16 +7,19 @@ import NextImage from 'next/image';
 import { ProjectTitle } from '@/types/types';
 import { Button } from '@nextui-org/react';
 import { Link } from '@/navigation';
+import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
+import { useImageVariant } from '@/hooks/useImageVariant';
 
 interface Props {
 	title: string;
 	overview: ProjectTitle;
-	imageLink: string;
+	imageLink: string[];
 	liveLink: string;
 	repoLink: string;
 }
 
 export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props) => {
+	const variant = useImageVariant();
 	return (
 		<AuroraBackground>
 			<Wrapper className='mt-60'>
@@ -34,7 +37,11 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 							{overview.fifthSection}
 						</p>
 					</h1>
-					<div className='flex items-center gap-4 mt-10'>
+					<TextGenerateEffect
+						className='w-full md:text-xl  xl:text-2xl text-default-400'
+						words={'Passionately crafted with heart and soul.'}
+					/>
+					<div className='flex items-center gap-4'>
 						<Button
 							target='_blank'
 							href={liveLink}
@@ -56,15 +63,38 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 				</div>
 
 				<div className='w-full my-32'>
-					<Image
-						priority
-						width={1500}
-						height={1200}
-						as={NextImage}
-						className='w-full h-full object-cover'
-						alt={title}
-						src={imageLink}
-					/>
+					{imageLink.length === 2 ? (
+						<>
+							<Image
+								priority
+								width={1500}
+								height={1200}
+								as={NextImage}
+								className={`w-full h-full object-cover ${variant === 'dark' ? 'block' : 'hidden'}`}
+								alt={title}
+								src={imageLink[0]}
+							/>
+							<Image
+								priority
+								width={1500}
+								height={1200}
+								as={NextImage}
+								className={`w-full h-full object-cover ${variant === 'light' ? 'block' : 'hidden'}`}
+								alt={title}
+								src={imageLink[1]}
+							/>
+						</>
+					) : (
+						<Image
+							priority
+							width={1500}
+							height={1200}
+							as={NextImage}
+							className='w-full h-full object-cover'
+							alt={title}
+							src={imageLink[0]}
+						/>
+					)}
 				</div>
 			</Wrapper>
 		</AuroraBackground>

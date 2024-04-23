@@ -27,7 +27,7 @@ export const Header = () => {
 
 					<TextGenerateEffect
 						className='w-full md:text-xl  xl:text-2xl text-default-400'
-						words={'Forging connections between creativity and innovation.'}
+						words={'Building digital landscapes, pixel by pixel.'}
 					/>
 					<div className='flex items-center gap-4'>
 						<Button

@@ -12,7 +12,7 @@ export const Project = ({ projectInfo }: Props) => {
 		<>
 			<Header
 				title={projectInfo.title}
-				imageLink={projectInfo.imagesLinks[0]}
+				imageLink={projectInfo.imagesLinks}
 				overview={projectInfo.overview}
 				liveLink={projectInfo.liveLink}
 				repoLink={projectInfo.repoLink}

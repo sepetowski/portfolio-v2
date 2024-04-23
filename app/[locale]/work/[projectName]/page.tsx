@@ -3,7 +3,6 @@ import { promises as fs } from 'fs';
 import { notFound } from 'next/navigation';
 import { ProjectPageInfo } from '@/types/types';
 import { Project } from '@/components/pages/project/Project';
-import { FEATURES_ICONS } from '@/lib/constants';
 
 interface Params {
 	params: {
