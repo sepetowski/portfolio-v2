@@ -1,5 +1,21 @@
 import { CardReveal, StackCard, WorkCard } from '@/types/types';
-import { Book, Code, Gamepad2 } from 'lucide-react';
+import {
+	AlarmClockCheck,
+	Bell,
+	Book,
+	Calendar,
+	Code,
+	Folder,
+	Gamepad2,
+	Globe,
+	KeyRound,
+	MessageSquare,
+	PencilRuler,
+	Tags,
+	UserPlus,
+	UsersRound,
+	Workflow,
+} from 'lucide-react';
 
 export const RECENT_WORKS: WorkCard[] = [
 	{
@@ -92,11 +108,17 @@ export const MY_STACK: StackCard[] = [
 	{ alt: 'React', src: '/svg/react.svg' },
 	{ alt: 'Next.js', src: '/svg/nextjs.svg', needBgc: true },
 	{ alt: 'Zod', src: '/svg/zod.svg' },
+	{ alt: 'Zustand', src: '/images/zustand.png' },
 	{ alt: 'React Router', src: '/svg/router.svg', needBgc: true },
 	{ alt: 'React Redux', src: '/svg/redux.svg' },
+	{ alt: 'React Flow', src: '/svg/reactFlow.svg', needBgc: true },
 	{ alt: 'TanStack Query', src: '/svg/reactQuery.svg' },
+	{ alt: 'Axios', src: '/svg/axios.svg' },
 	{ alt: 'Prisma', src: '/svg/prisma.svg', needBgc: true },
 	{ alt: 'PostgreSQL', src: '/svg/postgreSql.svg' },
+	{ alt: 'NextAuth.js', src: '/images/nextAuth.png' },
+	{ alt: 'Firebase', src: '/svg/firebase.svg' },
+	{ alt: 'Supabase', src: '/svg/supabase.svg', needBgc: true },
 	{ alt: 'Npm', src: '/svg/npm.svg' },
 	{ alt: 'Git', src: '/svg/git.svg' },
 	{ alt: 'Github', src: '/svg/github.svg', needBgc: true },
@@ -124,11 +146,24 @@ export const ABOUT_ME_CARDS: CardReveal[] = [
 
 export const FEATURES_ICONS = [
 	{
-		title: 'JustNoted',
-		icons: [Book, Code, Gamepad2, Book, Code, Gamepad2, Book, Code, Gamepad2],
+		title: 'StudyFlow',
+		icons: [
+			KeyRound,
+			Globe,
+			UsersRound,
+			Folder,
+			Workflow,
+			PencilRuler,
+			MessageSquare,
+			Calendar,
+			AlarmClockCheck,
+			Bell,
+			Tags,
+			UserPlus,
+		],
 	},
 	{
-		title: 'StudyFlow',
-		icons: [Book, Code, Code],
+		title: 'JustNoted',
+		icons: [Book, Code, Gamepad2, Book, Code, Gamepad2, Book, Code, Gamepad2],
 	},
 ];

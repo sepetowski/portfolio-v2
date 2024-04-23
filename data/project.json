@@ -4,11 +4,52 @@
 			"title": "StudyFlow",
 			"features": [
 				{
-					"title": "Auth",
+					"title": "Authentication",
 					"desc": "lorem lorem lorem lorem"
 				},
 				{
-					"title": "Notes",
+					"title": "Two languages support",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Role-based collaboration",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Workspaces",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Mind maps",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Tasks",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Group chat",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Integrated calendar",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Pomodoro",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Notifications",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Tagging system",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Assignment system",
 					"desc": "lorem lorem lorem lorem"
 				}
 			],
@@ -22,7 +63,24 @@
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
 				{ "alt": "CSS", "src": "/svg/css.svg" },
-				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true }
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "Zod", "src": "/svg/zod.svg" },
+				{ "alt": "Zustand", "src": "/images/zustand.png" },
+				{ "alt": "React Flow", "src": "/svg/reactFlow.svg", "needBgc": true },
+				{ "alt": "TanStack Query", "src": "/svg/reactQuery.svg" },
+				{ "alt": "NextAuth.js", "src": "/images/nextAuth.png" },
+				{ "alt": "Prisma", "src": "/svg/prisma.svg", "needBgc": true },
+				{ "alt": "Axios", "src": "/svg/axios.svg" },
+				{ "alt": "PostgreSQL", "src": "/svg/postgreSql.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
 			],
 			"repoLink": "https://github.com/sepetowski/studyFlow",
 			"liveLink": "https://studyflow-app.vercel.app",
