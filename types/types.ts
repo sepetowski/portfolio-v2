@@ -6,6 +6,7 @@ export interface WorkCard {
 	linkHref: string;
 	title: string;
 	subTitle: string;
+	hasDarkMorde?: boolean;
 }
 
 export interface StackCard {
@@ -39,6 +40,7 @@ export interface ProjectPageInfo {
 	technologies: StackCard[];
 	repoLink: string;
 	liveLink: string | null;
-	imagesLinks: string[];
+	lightThemeImagesLinks: string[];
+	darkThemeImagesLinks: string[] | null;
 	features: Feature[];
 }

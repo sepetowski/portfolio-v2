@@ -84,7 +84,22 @@
 			],
 			"repoLink": "https://github.com/sepetowski/studyFlow",
 			"liveLink": "https://studyflow-app.vercel.app",
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+			"lightThemeImagesLinks": [
+				"/images/studyFlow/studyFlow6-light.png",
+				"/images/studyFlow/studyFlow-light.png",
+				"/images/studyFlow/studyFlow5-light.png",
+				"/images/studyFlow/studyFlow4-light.png",
+				"/images/studyFlow/studyFlow3-light.png",
+				"/images/studyFlow/studyFlow2-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/studyFlow/studyFlow6-dark.png",
+				"/images/studyFlow/studyFlow-dark.png",
+				"/images/studyFlow/studyFlow5-dark.png",
+				"/images/studyFlow/studyFlow4-dark.png",
+				"/images/studyFlow/studyFlow3-dark.png",
+				"/images/studyFlow/studyFlow2-dark.png"
+			]
 		},
 		{
 			"title": "Kivi",
@@ -157,7 +172,22 @@
 			],
 			"repoLink": "https://github.com/sepetowski/kivi",
 			"liveLink": "https://kivi-app.vercel.app",
-			"imagesLinks": ["/images/kiviPreview-dark.png", "/images/kiviPreview-light.png"]
+			"lightThemeImagesLinks": [
+				"/images/kivi/kivi-light.png",
+				"/images/kivi/kivi2-light.png",
+				"/images/kivi/kivi3-light.png",
+				"/images/kivi/kivi4-light.png",
+				"/images/kivi/kivi5-light.png",
+				"/images/kivi/kivi6-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/kivi/kivi-dark.png",
+				"/images/kivi/kivi2-dark.png",
+				"/images/kivi/kivi3-dark.png",
+				"/images/kivi/kivi4-dark.png",
+				"/images/kivi/kivi5-dark.png",
+				"/images/kivi/kivi6-dark.png"
+			]
 		},
 		{
 			"title": "Portfolio",
@@ -197,7 +227,8 @@
 			],
 			"repoLink": "https://github.com/sepetowski/kivi",
 			"liveLink": "https://kivi-app.vercel.app",
-			"imagesLinks": ["/images/kiviPreview-dark.png", "/images/kiviPreview-light.png"]
+			"lightThemeImagesLinks": ["/images/portfolio/portfolio-light.png"],
+			"darkThemeImagesLinks": ["/images/portfolio/portfolio-dark.png"]
 		},
 		{
 			"title": "JustNoted",
@@ -253,7 +284,16 @@
 			],
 			"repoLink": "https://github.com/sepetowski/justNoted",
 			"liveLink": "https://justnoted-3c406.web.app/",
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+			"lightThemeImagesLinks": [
+				"/images/justNoted/justNoted.png",
+				"/images/justNoted/justNoted2.png",
+				"/images/justNoted/justNoted3.png",
+				"/images/justNoted/justNoted4.png",
+				"/images/justNoted/justNoted5.png",
+				"/images/justNoted/justNoted6.png",
+				"/images/justNoted/justNoted7.png"
+			],
+			"darkThemeImagesLinks": null
 		},
 		{
 			"title": "Natalia-website",
@@ -286,43 +326,13 @@
 			],
 			"repoLink": "https://github.com/sepetowski/NataliaSite",
 			"liveLink": "https://nataliaportfolio.web.app/",
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
-		},
-
-		{
-			"title": "Natalia-website",
-			"features": [
-				{
-					"title": "Gallery Page",
-					"desc": "lorem lorem lorem lorem"
-				}
+			"lightThemeImagesLinks": [
+				"/images/NataliaWebsite/nataliaSite.png",
+				"/images/NataliaWebsite/nataliaSite2.png",
+				"/images/NataliaWebsite/nataliaSite3.png"
 			],
-			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
-			},
-			"technologies": [
-				{ "alt": "HTML", "src": "/svg/html.svg" },
-				{ "alt": "CSS", "src": "/svg/css.svg" },
-				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
-				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
-				{ "alt": "React", "src": "/svg/react.svg" },
-				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
-				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
-				{ "alt": "Npm", "src": "/svg/npm.svg" },
-				{ "alt": "Git", "src": "/svg/git.svg" },
-				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
-				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
-				{ "alt": "Vite", "src": "/svg/vitejs.svg" }
-			],
-			"repoLink": "https://github.com/sepetowski/NataliaSite",
-			"liveLink": "https://nataliaportfolio.web.app/",
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+			"darkThemeImagesLinks": null
 		},
-
 		{
 			"title": "TravelMark",
 			"features": [
@@ -358,7 +368,11 @@
 			],
 			"repoLink": "https://github.com/sepetowski/Travell-mark-app",
 			"liveLink": "https://sepetowski.github.io/Travell-mark-app/",
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+			"lightThemeImagesLinks": [
+				"/images/travelMark/travelMark.png",
+				"/images/travelMark/travelMark2.png"
+			],
+			"darkThemeImagesLinks": null
 		},
 
 		{
@@ -396,7 +410,12 @@
 			],
 			"repoLink": "https://github.com/sepetowski/recipe-app",
 			"liveLink": "https://jakubsepetowski-recipeapp.netlify.app/",
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+			"lightThemeImagesLinks": [
+				"/images/recipeApp/recipeApp.png",
+				"/images/recipeApp/recipeApp2.png",
+				"/images/recipeApp/recipeApp3.png"
+			],
+			"darkThemeImagesLinks": null
 		},
 		{
 			"title": "GnNews",
@@ -429,7 +448,16 @@
 			],
 			"repoLink": "https://github.com/sepetowski/news",
 			"liveLink": null,
-			"imagesLinks": ["/images/studyFlowPreview-dark.png", "/images/studyFlowPreview-light.png"]
+			"lightThemeImagesLinks": [
+				"/images/gnNews/gnNews-light.png",
+				"/images/gnNews/gnNews2-light.png",
+				"/images/gnNews/gnNews3-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/gnNews/gnNews-dark.png",
+				"/images/gnNews/gnNews2-dark.png",
+				"/images/gnNews/gnNews3-dark.png"
+			]
 		}
 	]
 }

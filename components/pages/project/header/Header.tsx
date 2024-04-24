@@ -13,12 +13,20 @@ import { useImageVariant } from '@/hooks/useImageVariant';
 interface Props {
 	title: string;
 	overview: ProjectTitle;
-	imageLink: string[];
+	darkThemeImagesLinks: string[] | null;
+	lightThemeImagesLinks: string[];
 	liveLink: string | null;
 	repoLink: string;
 }
 
-export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props) => {
+export const Header = ({
+	darkThemeImagesLinks,
+	lightThemeImagesLinks,
+	overview,
+	title,
+	liveLink,
+	repoLink,
+}: Props) => {
 	const variant = useImageVariant();
 	return (
 		<AuroraBackground>
@@ -65,39 +73,16 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 					</div>
 				</div>
 
-				<div className='w-full my-32'>
-					{imageLink.length === 2 ? (
-						<>
-							<Image
-								priority
-								width={1500}
-								height={1200}
-								as={NextImage}
-								className={`w-full h-full object-cover ${variant === 'dark' ? '' : 'hidden'}`}
-								alt={title}
-								src={imageLink[0]}
-							/>
-							<Image
-								priority
-								width={1500}
-								height={1200}
-								as={NextImage}
-								className={`w-full h-full object-cover ${variant === 'light' ? '' : 'hidden'}`}
-								alt={title}
-								src={imageLink[1]}
-							/>
-						</>
-					) : (
-						<Image
-							priority
-							width={1500}
-							height={1200}
-							as={NextImage}
-							className='w-full h-full object-cover'
-							alt={title}
-							src={imageLink[0]}
-						/>
-					)}
+				<div className='w-full my-32 border border-black/[0.2] border-default-300 dark:border-default-50 rounded-xl overflow-hidden '>
+					<Image
+						priority
+						width={1500}
+						height={1200}
+						as={NextImage}
+						className={`w-full h-full object-cover `}
+						alt={title}
+						src={lightThemeImagesLinks[0]}
+					/>
 				</div>
 			</Wrapper>
 		</AuroraBackground>

@@ -30,51 +30,37 @@ import {
 	Workflow,
 } from 'lucide-react';
 
-export const RECENT_WORKS: WorkCard[] = [
-	{
-		title: 'StudyFlow',
-		subTitle: 'Increase your productivity',
-		alt: 'StudyFlow app',
-		linkHref: '/work/StudyFlow',
-		src: '/images/studyFlowPreview',
-	},
-	{
-		title: 'Kivi',
-		subTitle: 'Social app for gamers',
-		alt: 'Kivi app',
-		linkHref: '/work/Kivi',
-		src: '/images/kiviPreview',
-	},
-];
-
 export const MY_ALL_WORKS: WorkCard[] = [
 	{
 		title: 'StudyFlow',
 		subTitle: 'Increase your productivity',
 		alt: 'StudyFlow app',
 		linkHref: '/work/StudyFlow',
-		src: '/images/studyFlowPreview',
+		src: '/images/studyFlow/studyFlow6',
+		hasDarkMorde: true,
 	},
 	{
 		title: 'Kivi',
 		subTitle: 'Social app for gamers',
 		alt: 'Kivi app',
 		linkHref: '/work/Kivi',
-		src: '/images/kiviPreview',
+		src: '/images/kivi/kivi',
+		hasDarkMorde: true,
 	},
 	{
 		title: 'My portfolio webiste',
 		subTitle: 'It is this webiste',
 		alt: 'My portfolio webiste',
 		linkHref: '/work/Portfolio',
-		src: '/images/studyFlowPreview',
+		src: '/images/portfolio/portfolio',
+		hasDarkMorde: true,
 	},
 	{
 		title: 'JustNoted',
 		subTitle: 'Manage your notes',
 		alt: 'JustNoted app',
 		linkHref: '/work/JustNoted',
-		src: '/images/kiviPreview',
+		src: '/images/justNoted/justNoted.png',
 	},
 
 	{
@@ -82,28 +68,29 @@ export const MY_ALL_WORKS: WorkCard[] = [
 		subTitle: 'Made on order',
 		alt: "Natalia's portfolio website",
 		linkHref: '/work/Natalia-website',
-		src: '/images/kiviPreview',
+		src: '/images/NataliaWebsite/nataliaSite.png',
 	},
 	{
 		title: 'TravelMark',
 		subTitle: 'Stay organized while traveling',
 		alt: 'TravelMark app',
 		linkHref: '/work/TravelMark',
-		src: '/images/studyFlowPreview',
+		src: '/images/travelMark/travelMark.png',
 	},
 	{
 		title: 'Recipe App',
 		subTitle: 'Find the recipes you want',
 		alt: 'Recipe App',
 		linkHref: '/work/Recipe-App',
-		src: '/images/kiviPreview',
+		src: '/images/recipeApp/recipeApp.png',
 	},
 	{
 		title: 'GnNews',
 		subTitle: 'The lates news',
 		alt: 'GnNews app',
 		linkHref: '/work/GnNews',
-		src: '/images/studyFlowPreview',
+		src: '/images/gnNews/gnNews',
+		hasDarkMorde: true,
 	},
 ];
 
