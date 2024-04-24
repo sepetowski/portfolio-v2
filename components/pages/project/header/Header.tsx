@@ -9,6 +9,7 @@ import { Button } from '@nextui-org/react';
 import { Link } from '@/navigation';
 import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
 import { useImageVariant } from '@/hooks/useImageVariant';
+import { Carousel } from './Carousel';
 
 interface Props {
 	title: string;
@@ -72,18 +73,11 @@ export const Header = ({
 						</Button>
 					</div>
 				</div>
-
-				<div className='w-full my-32 border border-black/[0.2] border-default-300 dark:border-default-50 rounded-xl overflow-hidden '>
-					<Image
-						priority
-						width={1500}
-						height={1200}
-						as={NextImage}
-						className={`w-full h-full object-cover `}
-						alt={title}
-						src={lightThemeImagesLinks[0]}
-					/>
-				</div>
+				<Carousel
+					darkThemeImagesLinks={darkThemeImagesLinks}
+					lightThemeImagesLinks={lightThemeImagesLinks}
+					title={title}
+				/>
 			</Wrapper>
 		</AuroraBackground>
 	);
