@@ -9,7 +9,7 @@
 				},
 				{
 					"title": "Two languages support",
-					"desc": "Our application supports bilingual functionality, catering to both Polish and English-speaking users. This ensures a seamless experience for users regardless of their language preference, enhancing accessibility and usability across different linguistic backgrounds."
+					"desc": "Application supports bilingual functionality, catering to both Polish and English-speaking users. This ensures a seamless experience for users regardless of their language preference, enhancing accessibility and usability across different linguistic backgrounds."
 				},
 				{
 					"title": "Role-based collaboration",
@@ -26,15 +26,15 @@
 				},
 				{
 					"title": "Tasks",
-					"desc": "The advanced text editor within our task feature allows for rich text formatting, including the ability to add images, links, customize header size, and font color. This comprehensive tool enhances task management by offering diverse customization options."
+					"desc": "The advanced text editor feature allows for rich text formatting, including the ability to add images, links, customize header size, and font color. This comprehensive tool enhances task management by offering diverse customization options."
 				},
 				{
 					"title": "Group chat",
-					"desc": "Enable instant communication among team members within workspaces with our real-time conversation feature. Seamlessly share files, discuss tasks, and collaborate effectively without ever leaving the application, fostering productivity and teamwork."
+					"desc": "Enable instant communication among team members within workspaces with real-time conversation feature. Seamlessly share files, discuss tasks, and collaborate effectively without ever leaving the application, fostering productivity and teamwork."
 				},
 				{
 					"title": "Integrated calendar",
-					"desc": "The integrated calendar feature automatically populates tasks with assigned dates, providing users with an effortless way to track deadlines and stay organized."
+					"desc": "Seamlessly visualize your tasks with their assigned dates, providing a clear overview of your schedule and deadlines."
 				},
 				{
 					"title": "Pomodoro",
@@ -42,7 +42,7 @@
 				},
 				{
 					"title": "Notifications",
-					"desc": "Keep informed with real-time notifications regarding task assignments, messages, and impending deadlines, ensuring you stay on top of your workload and never miss important updates."
+					"desc": "With real-time notifications, you will never miss important updates."
 				},
 				{
 					"title": "Tagging system",
@@ -133,7 +133,7 @@
 
 				{
 					"title": "Notifications",
-					"desc": "Keep informed with real-time notifications regarding task assignments, messages, and impending deadlines, ensuring you stay on top of your workload and never miss important updates."
+					"desc": "With real-time notifications, you will never miss important updates."
 				},
 				{
 					"title": "Explore tab",
@@ -194,7 +194,7 @@
 			"features": [
 				{
 					"title": "Two languages support",
-					"desc": "Our application supports bilingual functionality, catering to both Polish and English-speaking users. This ensures a seamless experience for users regardless of their language preference, enhancing accessibility and usability across different linguistic backgrounds."
+					"desc": "Application supports bilingual functionality, catering to both Polish and English-speaking users. This ensures a seamless experience for users regardless of their language preference, enhancing accessibility and usability across different linguistic backgrounds."
 				},
 				{
 					"title": "It looks nice",
@@ -202,7 +202,7 @@
 				},
 				{
 					"title": "Contact form",
-					"desc": "It allows you to easily send an email directly from the website. Simply fill out the form with your details and message, and click send to initiate communication."
+					"desc": "It allows you to easily send an email directly from the website. Simply fill out the form with your details and message, and click „Send” to initiate communication."
 				}
 			],
 			"overview": {
@@ -252,7 +252,7 @@
 				},
 				{
 					"title": "Integrated calendar",
-					"desc": "The integrated calendar feature automatically populates notes with assigned dates, providing users with an effortless way to track deadlines and stay organized."
+					"desc": "Seamlessly visualize your notes with their assigned dates, providing a clear overview of your schedule and deadlines."
 				},
 				{
 					"title": "Trash system",
@@ -300,7 +300,7 @@
 			"features": [
 				{
 					"title": "Gallery Page",
-					"desc": "Explore a visual feast on our gallery page, where stunning images and artwork await. Immerse yourself in captivating visuals and discover inspiration at every click."
+					"desc": "Allows you to view and zoom in on photos."
 				}
 			],
 			"overview": {
@@ -342,7 +342,7 @@
 				},
 				{
 					"title": "Geolocation & weather API",
-					"desc": "By leveraging geolocation and weather API, you can enjoy personalized weather experiences. Receive accurate weather forecasts for your current location, ensuring you have the information you need exactly when you need it."
+					"desc": "Stay up-to-date on the current weather in each of the relevant places."
 				},
 				{
 					"title": "Saving visted places",

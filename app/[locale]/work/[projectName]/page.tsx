@@ -13,6 +13,8 @@ interface Params {
 
 export const ProjectPage = async ({ params: { projectName, locale } }: Params) => {
 	const file = await fs.readFile(process.cwd() + `/data/${locale}/project.json`, 'utf8');
+	if (!file) notFound();
+
 	const data: { projects: ProjectPageInfo[] } = JSON.parse(file);
 	const projects = data.projects;
 

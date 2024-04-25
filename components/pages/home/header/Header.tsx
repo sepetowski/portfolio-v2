@@ -8,7 +8,7 @@ import { Link } from '@/navigation';
 import { useTranslations } from 'next-intl';
 
 export const Header = () => {
-	const t = useTranslations('PAGES.WORK.HEADER');
+	const t = useTranslations('PAGES.HOME.HEADER');
 
 	return (
 		<AuroraBackground>
