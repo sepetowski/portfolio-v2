@@ -10,7 +10,10 @@ interface Props {
 	theme: 'dark' | 'light';
 }
 
-export const WorkCard = ({ card: { alt, linkHref, src, subTitle, title }, theme }: Props) => {
+export const WorkCard = ({
+	card: { alt, linkHref, src, subTitle, title, hasDarkMorde },
+	theme,
+}: Props) => {
 	return (
 		<Card isFooterBlurred className='aspect-video w-full max-w-[35rem] col-span-12 sm:col-span-7  '>
 			<Image
@@ -22,7 +25,7 @@ export const WorkCard = ({ card: { alt, linkHref, src, subTitle, title }, theme 
 				removeWrapper
 				alt={alt}
 				className='z-0 w-full h-full object-cover'
-				src={`${src}-${theme}.png`}
+				src={hasDarkMorde ? `${src}-${theme}.png` : src}
 			/>
 			<CardFooter className='absolute bg-background/60 bottom-0 z-10 border-t-1 border-default-100 '>
 				<div className='flex flex-grow gap-2 items-center'>

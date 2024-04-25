@@ -7,16 +7,28 @@ import NextImage from 'next/image';
 import { ProjectTitle } from '@/types/types';
 import { Button } from '@nextui-org/react';
 import { Link } from '@/navigation';
+import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
+import { useImageVariant } from '@/hooks/useImageVariant';
+import { Carousel } from './Carousel';
 
 interface Props {
 	title: string;
 	overview: ProjectTitle;
-	imageLink: string;
-	liveLink: string;
+	darkThemeImagesLinks: string[] | null;
+	lightThemeImagesLinks: string[];
+	liveLink: string | null;
 	repoLink: string;
 }
 
-export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props) => {
+export const Header = ({
+	darkThemeImagesLinks,
+	lightThemeImagesLinks,
+	overview,
+	title,
+	liveLink,
+	repoLink,
+}: Props) => {
+	const variant = useImageVariant();
 	return (
 		<AuroraBackground>
 			<Wrapper className='mt-60'>
@@ -34,16 +46,23 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 							{overview.fifthSection}
 						</p>
 					</h1>
-					<div className='flex items-center gap-4 mt-10'>
-						<Button
-							target='_blank'
-							href={liveLink}
-							as={Link}
-							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
-							color='primary'
-							variant='ghost'>
-							Try it out!
-						</Button>
+					<TextGenerateEffect
+						className='w-full md:text-xl  xl:text-2xl text-default-400'
+						words={'Passionately crafted with heart and soul.'}
+					/>
+					<div className='flex items-center gap-4'>
+						{liveLink && (
+							<Button
+								target='_blank'
+								href={liveLink}
+								as={Link}
+								className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
+								color='primary'
+								variant='ghost'>
+								Try it out!
+							</Button>
+						)}
+
 						<Button
 							target='_blank'
 							href={repoLink}
@@ -55,17 +74,11 @@ export const Header = ({ imageLink, overview, title, liveLink, repoLink }: Props
 					</div>
 				</div>
 
-				<div className='w-full my-32'>
-					<Image
-						priority
-						width={1500}
-						height={1200}
-						as={NextImage}
-						className='w-full h-full object-cover'
-						alt={title}
-						src={imageLink}
-					/>
-				</div>
+				<Carousel
+					darkThemeImagesLinks={darkThemeImagesLinks}
+					lightThemeImagesLinks={lightThemeImagesLinks}
+					title={title}
+				/>
 			</Wrapper>
 		</AuroraBackground>
 	);

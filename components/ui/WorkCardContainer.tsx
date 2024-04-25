@@ -3,19 +3,14 @@ import React, { useEffect, useState } from 'react';
 import { WorkCard } from './WorkCard';
 import { useTheme } from 'next-themes';
 import { WorkCard as IWorkCard } from '@/types/types';
+import { useImageVariant } from '@/hooks/useImageVariant';
 
 interface Props {
 	workCards: IWorkCard[];
 }
 
 export const WorkCardContainer = ({ workCards }: Props) => {
-	const [variant, setVariant] = useState('dark');
-	const { theme } = useTheme();
-
-	useEffect(() => {
-		if (theme) setVariant(theme);
-	}, [theme]);
-
+	const variant = useImageVariant();
 	return (
 		<div className='mt-10 lg:mt-12  '>
 			<div

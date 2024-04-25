@@ -14,6 +14,7 @@ export const StackCard = ({ details: { alt, src, needBgc } }: Props) => {
 					needBgc ? 'bg-white rounded-xl p-2' : ''
 				} `}>
 				<Image
+					priority
 					className='w-full h-full object-cover'
 					width={600}
 					height={600}

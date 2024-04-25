@@ -28,7 +28,7 @@ export const Header = () => {
 
 					<TextGenerateEffect
 						className='w-full md:text-xl  xl:text-2xl text-default-400'
-						words={"Let's Make Magic Happen"}
+						words={"Let's make magic happen."}
 					/>
 
 					<Button

@@ -1,0 +1,463 @@
+{
+	"projects": [
+		{
+			"title": "StudyFlow",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Two languages support",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Role-based collaboration",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Workspaces",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Mind maps",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Tasks",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Group chat",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Integrated calendar",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Pomodoro",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Notifications",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Tagging system",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Assignment system",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "easily collaborate",
+				"thirdSection": "in projects",
+				"fourthSection": "and stay",
+				"fifthSection": "organized?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "Zod", "src": "/svg/zod.svg" },
+				{ "alt": "Zustand", "src": "/images/zustand.png" },
+				{ "alt": "React Flow", "src": "/svg/reactFlow.svg", "needBgc": true },
+				{ "alt": "TanStack Query", "src": "/svg/reactQuery.svg" },
+				{ "alt": "NextAuth.js", "src": "/images/nextAuth.png" },
+				{ "alt": "Prisma", "src": "/svg/prisma.svg", "needBgc": true },
+				{ "alt": "Axios", "src": "/svg/axios.svg" },
+				{ "alt": "PostgreSQL", "src": "/svg/postgreSql.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/studyFlow",
+			"liveLink": "https://studyflow-app.vercel.app",
+			"lightThemeImagesLinks": [
+				"/images/studyFlow/studyFlow6-light.png",
+				"/images/studyFlow/studyFlow-light.png",
+				"/images/studyFlow/studyFlow5-light.png",
+				"/images/studyFlow/studyFlow4-light.png",
+				"/images/studyFlow/studyFlow3-light.png",
+				"/images/studyFlow/studyFlow2-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/studyFlow/studyFlow6-dark.png",
+				"/images/studyFlow/studyFlow-dark.png",
+				"/images/studyFlow/studyFlow5-dark.png",
+				"/images/studyFlow/studyFlow4-dark.png",
+				"/images/studyFlow/studyFlow3-dark.png",
+				"/images/studyFlow/studyFlow2-dark.png"
+			]
+		},
+		{
+			"title": "Kivi",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Communities",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Posts & Comments",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Like & Dislike interactions ",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Profile customization",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Chats",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Notifications",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Explore tab",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Saved posts",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Are you",
+				"secondSection": "searching",
+				"thirdSection": "someone",
+				"fourthSection": "to play",
+				"fifthSection": "with?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "TanStack Query", "src": "/svg/reactQuery.svg" },
+				{ "alt": "NextAuth.js", "src": "/images/nextAuth.png" },
+				{ "alt": "Prisma", "src": "/svg/prisma.svg", "needBgc": true },
+				{ "alt": "PostgreSQL", "src": "/svg/postgreSql.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Pusher", "src": "/images/pusher.png", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/kivi",
+			"liveLink": "https://kivi-app.vercel.app",
+			"lightThemeImagesLinks": [
+				"/images/kivi/kivi-light.png",
+				"/images/kivi/kivi2-light.png",
+				"/images/kivi/kivi3-light.png",
+				"/images/kivi/kivi4-light.png",
+				"/images/kivi/kivi5-light.png",
+				"/images/kivi/kivi6-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/kivi/kivi-dark.png",
+				"/images/kivi/kivi2-dark.png",
+				"/images/kivi/kivi3-dark.png",
+				"/images/kivi/kivi4-dark.png",
+				"/images/kivi/kivi5-dark.png",
+				"/images/kivi/kivi6-dark.png"
+			]
+		},
+		{
+			"title": "Portfolio",
+			"features": [
+				{
+					"title": "Two languages support",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "It looks nice",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "It looks nice",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Is this",
+				"secondSection": "the best",
+				"thirdSection": "portfolio site",
+				"fourthSection": "i have ever",
+				"fifthSection": "seen?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/kivi",
+			"liveLink": "https://kivi-app.vercel.app",
+			"lightThemeImagesLinks": ["/images/portfolio/portfolio-light.png"],
+			"darkThemeImagesLinks": ["/images/portfolio/portfolio-dark.png"]
+		},
+		{
+			"title": "JustNoted",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Profile customization",
+					"desc": "lorem lorem lorem lorem"
+				},
+
+				{
+					"title": "Notes",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Notes edit hisotry",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Integrated calendar",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Trash system",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "have all",
+				"thirdSection": "your thoughts",
+				"fourthSection": "in one",
+				"fifthSection": "place?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "React Redux", "src": "/svg/redux.svg" },
+				{ "alt": "Firebase", "src": "/svg/firebase.svg" },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/justNoted",
+			"liveLink": "https://justnoted-3c406.web.app/",
+			"lightThemeImagesLinks": [
+				"/images/justNoted/justNoted.png",
+				"/images/justNoted/justNoted2.png",
+				"/images/justNoted/justNoted3.png",
+				"/images/justNoted/justNoted4.png",
+				"/images/justNoted/justNoted5.png",
+				"/images/justNoted/justNoted6.png",
+				"/images/justNoted/justNoted7.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+		{
+			"title": "Natalia-website",
+			"features": [
+				{
+					"title": "Gallery Page",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "have all",
+				"thirdSection": "your thoughts",
+				"fourthSection": "in one",
+				"fifthSection": "place?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/NataliaSite",
+			"liveLink": "https://nataliaportfolio.web.app/",
+			"lightThemeImagesLinks": [
+				"/images/NataliaWebsite/nataliaSite.png",
+				"/images/NataliaWebsite/nataliaSite2.png",
+				"/images/NataliaWebsite/nataliaSite3.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+		{
+			"title": "TravelMark",
+			"features": [
+				{
+					"title": "Interactive map",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Geolocation & weather API",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Saving visted places",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+
+			"overview": {
+				"firstSection": "Do you love to",
+				"secondSection": "travel",
+				"thirdSection": "and plan",
+				"fourthSection": "your every",
+				"fifthSection": "trip?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "SASS", "src": "/svg/sass.svg" },
+				{ "alt": "JavaScript", "src": "/svg/js.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/Travell-mark-app",
+			"liveLink": "https://sepetowski.github.io/Travell-mark-app/",
+			"lightThemeImagesLinks": [
+				"/images/travelMark/travelMark.png",
+				"/images/travelMark/travelMark2.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+
+		{
+			"title": "Recipe-App",
+			"features": [
+				{
+					"title": "Searching for recepies",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Saving the favourties one",
+					"desc": "lorem lorem lorem lorem"
+				},
+				{
+					"title": "Ingridents inforamtion",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+
+			"overview": {
+				"firstSection": "Do you have",
+				"secondSection": "a taste",
+				"thirdSection": "for",
+				"fourthSection": "your favourite",
+				"fifthSection": "pizza?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "SASS", "src": "/svg/sass.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/recipe-app",
+			"liveLink": "https://jakubsepetowski-recipeapp.netlify.app/",
+			"lightThemeImagesLinks": [
+				"/images/recipeApp/recipeApp.png",
+				"/images/recipeApp/recipeApp2.png",
+				"/images/recipeApp/recipeApp3.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+		{
+			"title": "GnNews",
+			"features": [
+				{
+					"title": "Latest news",
+					"desc": "lorem lorem lorem lorem"
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "keep up to date",
+				"thirdSection": "with news",
+				"fourthSection": "in you",
+				"fifthSection": "country?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" },
+				{ "alt": "React Redux", "src": "/svg/redux.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/news",
+			"liveLink": null,
+			"lightThemeImagesLinks": [
+				"/images/gnNews/gnNews-light.png",
+				"/images/gnNews/gnNews2-light.png",
+				"/images/gnNews/gnNews3-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/gnNews/gnNews-dark.png",
+				"/images/gnNews/gnNews2-dark.png",
+				"/images/gnNews/gnNews3-dark.png"
+			]
+		}
+	]
+}

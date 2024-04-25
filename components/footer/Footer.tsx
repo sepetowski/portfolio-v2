@@ -8,11 +8,11 @@ import { usePathname } from '@/navigation';
 export const Footer = () => {
 	const pathname = usePathname();
 	return (
-		<footer className='border-t border-default-100 bg-background py-6 lg:py-10 mt-20 lg:mt-40 '>
+		<footer className='border-t border-black/[0.2] border-default-300 dark:border-default-50 bg-background py-6 lg:py-8 mt-20 lg:mt-40 '>
 			<Wrapper>
 				<div className='w-full flex flex-col-reverse md:flex-row gap-2 items-center justify-between'>
 					<Link className='text-sm md:text-base' color='foreground' href={'/'}>
-						© 2024 Sepetwowski
+						© 2024 Sepetowski
 					</Link>
 					<Link
 						className='text-sm md:text-base'
