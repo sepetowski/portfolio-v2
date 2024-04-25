@@ -15,6 +15,7 @@ import {
 	Images,
 	Info,
 	KeyRound,
+	Mail,
 	Map,
 	MapPin,
 	MessageSquare,
@@ -130,17 +131,17 @@ export const MY_STACK: StackCard[] = [
 export const ABOUT_ME_CARDS: CardReveal[] = [
 	{
 		title: 'Student',
-		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
+		desc: "I'm a dedicated computer science student at Silesian University of Technology. Passionate about tech and innovation, I'm always expanding my skills. With a keen problem-solving interest, I aim to make a difference in the computing world.",
 		Icon: Book,
 	},
 	{
 		title: 'Hobby',
-		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
+		desc: "In my free time, I'm an avid gamer, finding joy in exploring virtual worlds and mastering gameplay. Music is another passion of mine—I love immersing myself in various genres and occasionally strumming away on my guitar, letting the melodies resonate.",
 		Icon: Gamepad2,
 	},
 	{
 		title: 'Programming',
-		desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, animi laudantium deleniti odio quisquam doloribus nam dignissimos harum repellendus consequuntur cumque minima! Deserunt aut, odit quo placeat sapiente dolorum accusantium?',
+		desc: "In my programming endeavors, I find my true passion. Whether it's diving into complex algorithms or crafting elegant code solutions, I am deeply immersed in the world of programming. It's not just a skill but a genuine passion that drives me to continuously learn and innovate in this dynamic field.",
 		Icon: Code,
 	},
 ];
@@ -179,7 +180,7 @@ export const FEATURES_ICONS = [
 	},
 	{
 		title: 'Portfolio',
-		icons: [Globe, Palette],
+		icons: [Globe, Palette, Mail],
 	},
 	{
 		title: 'JustNoted',

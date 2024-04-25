@@ -73,6 +73,7 @@ export const Header = ({
 						</Button>
 					</div>
 				</div>
+
 				<Carousel
 					darkThemeImagesLinks={darkThemeImagesLinks}
 					lightThemeImagesLinks={lightThemeImagesLinks}

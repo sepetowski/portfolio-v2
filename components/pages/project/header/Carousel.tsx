@@ -18,17 +18,17 @@ export const Carousel = ({ darkThemeImagesLinks, lightThemeImagesLinks, title }:
 
 	return (
 		<div className='overflow-hidden ' ref={emblaRef}>
-			<div className='flex gap-6'>
+			<div className='flex -ml-6 '>
 				{lightThemeImagesLinks.map((image, i) => (
 					<div
 						key={i}
-						className='embla__slide w-full my-32 border border-black/[0.2] border-default-300 dark:border-default-50 rounded-xl overflow-hidden '>
+						className=' my-32 overflow-hidden w-full flex justify-center items-center h-full  min-w-0 shrink-0 grow-0 basis-full pl-6 '>
 						<Image
 							priority
 							width={1500}
 							height={1200}
 							as={NextImage}
-							className={`w-full h-full object-cover `}
+							className={`w-full h-full object-cover  border border-black/[0.2] border-default-300 dark:border-default-50 rounded-xl`}
 							alt={title}
 							src={darkThemeImagesLinks && varaint === 'dark' ? darkThemeImagesLinks[i] : image}
 						/>

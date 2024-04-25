@@ -1,0 +1,463 @@
+{
+	"projects": [
+		{
+			"title": "StudyFlow",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "It offers versatile sign-in options, allowing users to access the application using their credentials, Google, or GitHub accounts. Security is paramount, ensured through the implementation of JWT (JSON Web Tokens), guaranteeing a safe and protected user experience."
+				},
+				{
+					"title": "Two languages support",
+					"desc": "Our application supports bilingual functionality, catering to both Polish and English-speaking users. This ensures a seamless experience for users regardless of their language preference, enhancing accessibility and usability across different linguistic backgrounds."
+				},
+				{
+					"title": "Role-based collaboration",
+					"desc": "It provides structured access control within workspaces. With distinct roles such as Owner, Admin, Editor, and Viewer, users have granular control over permissions, enabling efficient collaboration while maintaining data integrity and security."
+				},
+				{
+					"title": "Workspaces",
+					"desc": "Empower users to establish collaborative hubs for collective work efforts. Invite team members and collaborators to these centralized spaces, fostering seamless collaboration and enabling efficient project management."
+				},
+
+				{
+					"title": "Mind maps",
+					"desc": "Customize tile colors and connection types within mind maps, enabling users to tailor visualizations to their preferences. Editable connection types allow for a nuanced exploration of complex ideas."
+				},
+				{
+					"title": "Tasks",
+					"desc": "The advanced text editor within our task feature allows for rich text formatting, including the ability to add images, links, customize header size, and font color. This comprehensive tool enhances task management by offering diverse customization options."
+				},
+				{
+					"title": "Group chat",
+					"desc": "Enable instant communication among team members within workspaces with our real-time conversation feature. Seamlessly share files, discuss tasks, and collaborate effectively without ever leaving the application, fostering productivity and teamwork."
+				},
+				{
+					"title": "Integrated calendar",
+					"desc": "The integrated calendar feature automatically populates tasks with assigned dates, providing users with an effortless way to track deadlines and stay organized."
+				},
+				{
+					"title": "Pomodoro",
+					"desc": "Customizable Pomodoro timer feature enhances time management during work sessions. Users can tailor break times, session lengths, and notification settings to their preferences, ensuring an optimal workflow experience."
+				},
+				{
+					"title": "Notifications",
+					"desc": "Keep informed with real-time notifications regarding task assignments, messages, and impending deadlines, ensuring you stay on top of your workload and never miss important updates."
+				},
+				{
+					"title": "Tagging system",
+					"desc": "Effortlessly categorize and retrieve tasks and mind maps by utilizing our tagging system within workspaces, streamlining organization and facilitating efficient navigation."
+				},
+				{
+					"title": "Assignment system",
+					"desc": "Streamline project management and accountability by effortlessly assigning tasks and mind maps to specific users within the workspace. This feature enhances coordination and ensures clarity regarding responsibilities."
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "easily collaborate",
+				"thirdSection": "in projects",
+				"fourthSection": "and stay",
+				"fifthSection": "organized?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "Zod", "src": "/svg/zod.svg" },
+				{ "alt": "Zustand", "src": "/images/zustand.png" },
+				{ "alt": "React Flow", "src": "/svg/reactFlow.svg", "needBgc": true },
+				{ "alt": "TanStack Query", "src": "/svg/reactQuery.svg" },
+				{ "alt": "NextAuth.js", "src": "/images/nextAuth.png" },
+				{ "alt": "Prisma", "src": "/svg/prisma.svg", "needBgc": true },
+				{ "alt": "Axios", "src": "/svg/axios.svg" },
+				{ "alt": "PostgreSQL", "src": "/svg/postgreSql.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/studyFlow",
+			"liveLink": "https://studyflow-app.vercel.app",
+			"lightThemeImagesLinks": [
+				"/images/studyFlow/studyFlow6-light.png",
+				"/images/studyFlow/studyFlow-light.png",
+				"/images/studyFlow/studyFlow5-light.png",
+				"/images/studyFlow/studyFlow4-light.png",
+				"/images/studyFlow/studyFlow3-light.png",
+				"/images/studyFlow/studyFlow2-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/studyFlow/studyFlow6-dark.png",
+				"/images/studyFlow/studyFlow-dark.png",
+				"/images/studyFlow/studyFlow5-dark.png",
+				"/images/studyFlow/studyFlow4-dark.png",
+				"/images/studyFlow/studyFlow3-dark.png",
+				"/images/studyFlow/studyFlow2-dark.png"
+			]
+		},
+		{
+			"title": "Kivi",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "It offers versatile sign-in options, allowing users to access the application using their credentials, Google, or GitHub accounts. Security is paramount, ensured through the implementation of JWT (JSON Web Tokens), guaranteeing a safe and protected user experience."
+				},
+				{
+					"title": "Communities",
+					"desc": "Engage with vibrant communities by posting content and participating in discussions. Community founders have full control over the content, ensuring a curated and cohesive experience for members."
+				},
+				{
+					"title": "Posts & Comments",
+					"desc": "Interact with posts by commenting, and enjoy the flexibility to edit or delete your own posts. Enhance posts with images to enrich the content and engage your audience effectively."
+				},
+				{
+					"title": "Like & Dislike interactions ",
+					"desc": "Express appreciation or dissent by liking or disliking content, allowing users to convey their sentiments effectively and engage with posts in a meaningful way."
+				},
+
+				{
+					"title": "Profile customization",
+					"desc": "Customize your profile to reflect your personality by changing your username, modifying the profile description, and selecting a background image. You can also personalize your avatar to make your profile uniquely yours."
+				},
+
+				{
+					"title": "Chats",
+					"desc": "Engage in real-time conversations with the chats, ensuring seamless communication. Customize your chat experience by selecting your preferred theme from a palette of 12 different colors, adding a personal touch to your interactions."
+				},
+
+				{
+					"title": "Notifications",
+					"desc": "Keep informed with real-time notifications regarding task assignments, messages, and impending deadlines, ensuring you stay on top of your workload and never miss important updates."
+				},
+				{
+					"title": "Explore tab",
+					"desc": "Effortlessly discover and connect with other users. Manage your search history efficiently to streamline your exploration process."
+				},
+				{
+					"title": "Saved posts",
+					"desc": "Easily bookmark and revisit any posts with the saving post feature."
+				}
+			],
+			"overview": {
+				"firstSection": "Are you",
+				"secondSection": "searching",
+				"thirdSection": "someone",
+				"fourthSection": "to play",
+				"fifthSection": "with?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "Shadcn", "src": "/svg/shadcn.svg", "needBgc": true },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "TanStack Query", "src": "/svg/reactQuery.svg" },
+				{ "alt": "NextAuth.js", "src": "/images/nextAuth.png" },
+				{ "alt": "Prisma", "src": "/svg/prisma.svg", "needBgc": true },
+				{ "alt": "PostgreSQL", "src": "/svg/postgreSql.svg" },
+				{ "alt": "Supabase", "src": "/svg/supabase.svg", "needBgc": true },
+				{ "alt": "Pusher", "src": "/images/pusher.png", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/kivi",
+			"liveLink": "https://kivi-app.vercel.app",
+			"lightThemeImagesLinks": [
+				"/images/kivi/kivi-light.png",
+				"/images/kivi/kivi2-light.png",
+				"/images/kivi/kivi3-light.png",
+				"/images/kivi/kivi4-light.png",
+				"/images/kivi/kivi5-light.png",
+				"/images/kivi/kivi6-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/kivi/kivi-dark.png",
+				"/images/kivi/kivi2-dark.png",
+				"/images/kivi/kivi3-dark.png",
+				"/images/kivi/kivi4-dark.png",
+				"/images/kivi/kivi5-dark.png",
+				"/images/kivi/kivi6-dark.png"
+			]
+		},
+		{
+			"title": "Portfolio",
+			"features": [
+				{
+					"title": "Two languages support",
+					"desc": "Our application supports bilingual functionality, catering to both Polish and English-speaking users. This ensures a seamless experience for users regardless of their language preference, enhancing accessibility and usability across different linguistic backgrounds."
+				},
+				{
+					"title": "It looks nice",
+					"desc": "The page is looking polished and sleek, thanks to the seamless animations from Framer Motion, the intuitive components from NextUI library, and the elegant design elements from Aceternity UI library."
+				},
+				{
+					"title": "Contact form",
+					"desc": "It allows you to easily send an email directly from the website. Simply fill out the form with your details and message, and click send to initiate communication."
+				}
+			],
+			"overview": {
+				"firstSection": "Is this",
+				"secondSection": "the best",
+				"thirdSection": "portfolio site",
+				"fourthSection": "i have ever",
+				"fifthSection": "seen?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "Next.js", "src": "/svg/nextjs.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/kivi",
+			"liveLink": "https://kivi-app.vercel.app",
+			"lightThemeImagesLinks": ["/images/portfolio/portfolio-light.png"],
+			"darkThemeImagesLinks": ["/images/portfolio/portfolio-dark.png"]
+		},
+		{
+			"title": "JustNoted",
+			"features": [
+				{
+					"title": "Authentication",
+					"desc": "It offers versatile sign-in options, allowing users to access the application using their credentials or Google accounts. Security is paramount, ensured through the implementation of JWT (JSON Web Tokens), guaranteeing a safe and protected user experience."
+				},
+				{
+					"title": "Profile customization",
+					"desc": "Customize your profile to reflect your personality by changing your username, and selecting a profile image."
+				},
+
+				{
+					"title": "Notes",
+					"desc": "Create and organize notes seamlessly within distinct categories, enabling efficient management and easy access to your thoughts and tasks."
+				},
+				{
+					"title": "Notes edit hisotry",
+					"desc": "Effortlessly edit and track the history of your notes with the edit history feature."
+				},
+				{
+					"title": "Integrated calendar",
+					"desc": "The integrated calendar feature automatically populates notes with assigned dates, providing users with an effortless way to track deadlines and stay organized."
+				},
+				{
+					"title": "Trash system",
+					"desc": "Safeguard your notes with the trash system, where deleted notes are temporarily stored. Easily restore or permanently delete notes from the trash, providing peace of mind and flexibility in managing your content."
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "have all",
+				"thirdSection": "your thoughts",
+				"fourthSection": "in one",
+				"fifthSection": "place?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "React Redux", "src": "/svg/redux.svg" },
+				{ "alt": "Firebase", "src": "/svg/firebase.svg" },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/justNoted",
+			"liveLink": "https://justnoted-3c406.web.app/",
+			"lightThemeImagesLinks": [
+				"/images/justNoted/justNoted.png",
+				"/images/justNoted/justNoted2.png",
+				"/images/justNoted/justNoted3.png",
+				"/images/justNoted/justNoted4.png",
+				"/images/justNoted/justNoted5.png",
+				"/images/justNoted/justNoted6.png",
+				"/images/justNoted/justNoted7.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+		{
+			"title": "Natalia-website",
+			"features": [
+				{
+					"title": "Gallery Page",
+					"desc": "Explore a visual feast on our gallery page, where stunning images and artwork await. Immerse yourself in captivating visuals and discover inspiration at every click."
+				}
+			],
+			"overview": {
+				"firstSection": "Do you want to",
+				"secondSection": "have",
+				"thirdSection": "your",
+				"fourthSection": "own page",
+				"fifthSection": "like this?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "Framer motion", "src": "/svg/framerMotion.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/NataliaSite",
+			"liveLink": "https://nataliaportfolio.web.app/",
+			"lightThemeImagesLinks": [
+				"/images/NataliaWebsite/nataliaSite.png",
+				"/images/NataliaWebsite/nataliaSite2.png",
+				"/images/NataliaWebsite/nataliaSite3.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+		{
+			"title": "TravelMark",
+			"features": [
+				{
+					"title": "Interactive map",
+					"desc": "Simply double-click to effortlessly add visited or planned locations on the interactive map. Whether you're documenting past adventures or planning future ones, this intuitive tool enhances your mapping experience with ease and efficiency."
+				},
+				{
+					"title": "Geolocation & weather API",
+					"desc": "By leveraging geolocation and weather API, you can enjoy personalized weather experiences. Receive accurate weather forecasts for your current location, ensuring you have the information you need exactly when you need it."
+				},
+				{
+					"title": "Saving visted places",
+					"desc": "Easily save your favorite places and mark them as favorites for quick access. Whether it's a beloved restaurant, scenic spot, or essential destination, keeping track of your preferred places is simple and convenient."
+				}
+			],
+
+			"overview": {
+				"firstSection": "Do you love to",
+				"secondSection": "travel",
+				"thirdSection": "and plan",
+				"fourthSection": "your every",
+				"fifthSection": "trip?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "SASS", "src": "/svg/sass.svg" },
+				{ "alt": "JavaScript", "src": "/svg/js.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/Travell-mark-app",
+			"liveLink": "https://sepetowski.github.io/Travell-mark-app/",
+			"lightThemeImagesLinks": [
+				"/images/travelMark/travelMark.png",
+				"/images/travelMark/travelMark2.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+
+		{
+			"title": "Recipe-App",
+			"features": [
+				{
+					"title": "Searching for recepies",
+					"desc": "Effortlessly discover new recipes using the intuitive search feature. Simply enter dish names to find a plethora of culinary inspirations at your fingertips."
+				},
+				{
+					"title": "Saving the favourties one",
+					"desc": "Effortlessly save your favorite recipes for quick and easy access. With just a tap, you can bookmark recipes you love, ensuring they're always at your fingertips when you're ready to cook up something delicious."
+				},
+				{
+					"title": "Ingridents inforamtion",
+					"desc": "Each recipe comes complete with detailed information about the required ingredients, making it easy to gather everything you need before you start cooking."
+				}
+			],
+
+			"overview": {
+				"firstSection": "Do you have",
+				"secondSection": "a taste",
+				"thirdSection": "for",
+				"fourthSection": "your favourite",
+				"fifthSection": "pizza?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "SASS", "src": "/svg/sass.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/recipe-app",
+			"liveLink": "https://jakubsepetowski-recipeapp.netlify.app/",
+			"lightThemeImagesLinks": [
+				"/images/recipeApp/recipeApp.png",
+				"/images/recipeApp/recipeApp2.png",
+				"/images/recipeApp/recipeApp3.png"
+			],
+			"darkThemeImagesLinks": null
+		},
+		{
+			"title": "GnNews",
+			"features": [
+				{
+					"title": "Latest news",
+					"desc": "Get instant access to the most recent headlines and breaking stories, keeping you informed and up-to-date with the world around you."
+				}
+			],
+			"overview": {
+				"firstSection": "Do you like to",
+				"secondSection": "keep up to date",
+				"thirdSection": "with news",
+				"fourthSection": "in you",
+				"fifthSection": "country?"
+			},
+			"technologies": [
+				{ "alt": "HTML", "src": "/svg/html.svg" },
+				{ "alt": "CSS", "src": "/svg/css.svg" },
+				{ "alt": "Tailwindcss", "src": "/svg/tailwindcss.svg" },
+				{ "alt": "TypeScript", "src": "/svg/ts.svg" },
+				{ "alt": "React", "src": "/svg/react.svg" },
+				{ "alt": "React Router", "src": "/svg/router.svg", "needBgc": true },
+				{ "alt": "Npm", "src": "/svg/npm.svg" },
+				{ "alt": "Git", "src": "/svg/git.svg" },
+				{ "alt": "Github", "src": "/svg/github.svg", "needBgc": true },
+				{ "alt": "Visual Studio Code", "src": "/svg/vscode.svg" },
+				{ "alt": "Vite", "src": "/svg/vitejs.svg" },
+				{ "alt": "React Redux", "src": "/svg/redux.svg" }
+			],
+			"repoLink": "https://github.com/sepetowski/news",
+			"liveLink": null,
+			"lightThemeImagesLinks": [
+				"/images/gnNews/gnNews-light.png",
+				"/images/gnNews/gnNews2-light.png",
+				"/images/gnNews/gnNews3-light.png"
+			],
+			"darkThemeImagesLinks": [
+				"/images/gnNews/gnNews-dark.png",
+				"/images/gnNews/gnNews2-dark.png",
+				"/images/gnNews/gnNews3-dark.png"
+			]
+		}
+	]
+}
