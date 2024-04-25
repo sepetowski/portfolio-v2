@@ -2,14 +2,12 @@
 import React from 'react';
 import { AuroraBackground } from '@/components/ui/AuroraBackground';
 import { Wrapper } from '@/components/ui/Wrapper';
-import { Image } from '@nextui-org/react';
-import NextImage from 'next/image';
 import { ProjectTitle } from '@/types/types';
 import { Button } from '@nextui-org/react';
 import { Link } from '@/navigation';
 import { TextGenerateEffect } from '@/components/ui/textGenerateEffect';
-import { useImageVariant } from '@/hooks/useImageVariant';
 import { Carousel } from './Carousel';
+import { useTranslations } from 'next-intl';
 
 interface Props {
 	title: string;
@@ -28,7 +26,8 @@ export const Header = ({
 	liveLink,
 	repoLink,
 }: Props) => {
-	const variant = useImageVariant();
+	const t = useTranslations('PAGES.PROJECT.HEADER');
+
 	return (
 		<AuroraBackground>
 			<Wrapper className='mt-60'>
@@ -48,7 +47,7 @@ export const Header = ({
 					</h1>
 					<TextGenerateEffect
 						className='w-full md:text-xl  xl:text-2xl text-default-400'
-						words={'Passionately crafted with heart and soul.'}
+						words={t('TEXT_EFFECT')}
 					/>
 					<div className='flex items-center gap-4'>
 						{liveLink && (
@@ -59,7 +58,7 @@ export const Header = ({
 								className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 								color='primary'
 								variant='ghost'>
-								Try it out!
+								{t('BUTTONS.LIVE')}
 							</Button>
 						)}
 
@@ -69,7 +68,7 @@ export const Header = ({
 							as={Link}
 							className='rounded-3xl  px-unit-5 min-w-unit-20 h-unit-10 text-base gap-unit-2  md:px-unit-6 md:min-w-unit-24 md:h-unit-12 md:text-medium md:gap-unit-3 '
 							variant='ghost'>
-							Repo code
+							{t('BUTTONS.REPO')}
 						</Button>
 					</div>
 				</div>

@@ -56,9 +56,9 @@
 			"overview": {
 				"firstSection": "Do you like to",
 				"secondSection": "easily collaborate",
-				"thirdSection": "in projects",
-				"fourthSection": "and stay",
-				"fifthSection": "organized?"
+				"thirdSection": "in",
+				"fourthSection": "your",
+				"fifthSection": "projects?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },

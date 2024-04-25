@@ -5,6 +5,7 @@ import { Wrapper } from '@/components/ui/Wrapper';
 import { FEATURES_ICONS } from '@/lib/constants';
 import { CardRevealContainer } from '@/components/ui/CardRevealContainer';
 import { CardReveal, Feature } from '@/types/types';
+import { useTranslations } from 'next-intl';
 
 interface Props {
 	features: Feature[];
@@ -12,6 +13,8 @@ interface Props {
 }
 
 export const Features = ({ features, title }: Props) => {
+	const t = useTranslations('PAGES.PROJECT.MAIN');
+
 	const [featuresCards, setFeaturesCards] = useState<CardReveal[]>([]);
 
 	useEffect(() => {
@@ -38,11 +41,11 @@ export const Features = ({ features, title }: Props) => {
 				<div className='w-full flex justify-center items-center gap-4 sm:gap-6 '>
 					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />
 					<h2 className='text-default-400 uppercase sm:text-lg md:text-2xl  text-center inline-block '>
-						Features
+						{t('TITLE')}
 					</h2>
 					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44   xl:w-80' />
 				</div>
-				<CardRevealContainer cards={featuresCards} />
+				<CardRevealContainer dontUseTransaltion cards={featuresCards} />
 			</section>
 		</Wrapper>
 	);

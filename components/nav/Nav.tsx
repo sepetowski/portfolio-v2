@@ -14,8 +14,12 @@ import { ThemeSwitcher } from '@/components/themeSwitcher/ThemeSwitcher';
 import { LocaleSwitcher } from '@/components/localeSwitcher/LocaleSwitcher';
 import { Link } from '@/components/ui/Link';
 import { usePathname } from '@/navigation';
+import { SITE_NAME } from '@/lib/constants';
+import { useTranslations } from 'next-intl';
 
 export const Nav = () => {
+	const t = useTranslations('COMPONENTS.NAV');
+
 	const [movedFromTop, setMovedFromTop] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -38,7 +42,7 @@ export const Nav = () => {
 			<NavbarContent className='sm:hidden pr-3 ' justify='start'>
 				<NavbarBrand>
 					<Link href='/' className='font-bold text-inherit'>
-						Sepetowski
+						{SITE_NAME}
 					</Link>
 				</NavbarBrand>
 			</NavbarContent>
@@ -46,7 +50,7 @@ export const Nav = () => {
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
 				<NavbarBrand>
 					<Link href='/' className='font-bold text-inherit'>
-						Sepetowski
+						{SITE_NAME}
 					</Link>
 				</NavbarBrand>
 				<NavbarItem className='font-extralight'>
@@ -54,7 +58,7 @@ export const Nav = () => {
 						color={pathname === '/work' ? 'primary' : 'foreground'}
 						underline='hover'
 						href='/work'>
-						Work
+						{t('WORK')}
 					</Link>
 				</NavbarItem>
 				<NavbarItem className='font-extralight'>
@@ -62,7 +66,7 @@ export const Nav = () => {
 						color={pathname === '/about' ? 'primary' : 'foreground'}
 						underline='hover'
 						href='/about'>
-						About me
+						{t('ABOUT')}
 					</Link>
 				</NavbarItem>
 				<NavbarItem className='font-extralight'>
@@ -70,7 +74,7 @@ export const Nav = () => {
 						color={pathname === '/contact' ? 'primary' : 'foreground'}
 						underline='hover'
 						href='/contact'>
-						Contact
+						{t('CONTACT')}
 					</Link>
 				</NavbarItem>
 			</NavbarContent>
@@ -91,17 +95,17 @@ export const Nav = () => {
 			<NavbarMenu>
 				<NavbarMenuItem className='font-extralight'>
 					<Link className='w-full' href='/work'>
-						Work
+						{t('WORK')}
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem className='font-extralight'>
 					<Link className='w-full' href='/about'>
-						About me
+						{t('ABOUT')}
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem className='font-extralight'>
 					<Link className='w-full' href='/contact'>
-						Contact
+						{t('CONTACT')}
 					</Link>
 				</NavbarMenuItem>
 			</NavbarMenu>

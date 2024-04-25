@@ -5,7 +5,7 @@ export interface WorkCard {
 	src: string;
 	linkHref: string;
 	title: string;
-	subTitle: string;
+	subtitle: string;
 	hasDarkMorde?: boolean;
 }
 

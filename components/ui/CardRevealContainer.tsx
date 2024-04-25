@@ -7,10 +7,11 @@ import { cn } from '@/lib/cn';
 
 interface Props {
 	cards: ICardReveal[];
+	dontUseTransaltion?: boolean;
 	className?: string;
 }
 
-export const CardRevealContainer = ({ cards, className }: Props) => {
+export const CardRevealContainer = ({ cards, className, dontUseTransaltion }: Props) => {
 	return (
 		<div
 			className={cn(
@@ -18,7 +19,12 @@ export const CardRevealContainer = ({ cards, className }: Props) => {
 				className
 			)}>
 			{cards.map((card, i) => (
-				<CardReveal key={i} title={card.title} Icon={card.Icon} desc={card.desc}>
+				<CardReveal
+					key={i}
+					title={card.title}
+					Icon={card.Icon}
+					desc={card.desc}
+					dontUseTransaltion={dontUseTransaltion}>
 					<CanvasRevealEffect
 						animationSpeed={3}
 						dotSize={2}
