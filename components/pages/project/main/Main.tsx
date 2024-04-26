@@ -1,11 +1,11 @@
 'use client';
 import React from 'react';
-import { ProjectPageInfo } from '@/types/types';
+import { Project } from '@/types/types';
 import { MyStack } from '@/components/ui/MyStack';
 import { Features } from './Features';
 
 interface Props {
-	projectInfo: ProjectPageInfo;
+	projectInfo: Project;
 }
 
 export const Main = ({ projectInfo }: Props) => {

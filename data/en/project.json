@@ -2,6 +2,7 @@
 	"projects": [
 		{
 			"title": "StudyFlow",
+			"shortDescription": "StudyFlow: the ultimate productivity app for collaboration. Create workspaces, manage tasks, and streamline communication. Customize settings, tag tasks, and stay updated with notifications. Assign dates, track progress, and maximize productivity with the Pomodoro feature. Welcome to StudyFlow: the future of teamwork!",
 			"features": [
 				{
 					"title": "Authentication",
@@ -103,6 +104,7 @@
 		},
 		{
 			"title": "Kivi",
+			"shortDescription": "Kivi: a social media app for gamers. Customize profiles, follow others, and explore games. Create or join communities, share content, and rate posts. Enjoy real-time messaging and choose from 12 theme colors. Stay updated with notifications and save favorite posts. Kivi: where gamers connect, share, and build communities.",
 			"features": [
 				{
 					"title": "Authentication",
@@ -191,6 +193,7 @@
 		},
 		{
 			"title": "Portfolio",
+			"shortDescription": "Discover a captivating collection of my creative works. Dive into a world of innovative designs. Explore my portfolio now and be inspired!",
 			"features": [
 				{
 					"title": "Two languages support",
@@ -232,6 +235,7 @@
 		},
 		{
 			"title": "JustNoted",
+			"shortDescription": "JustNoted: a versatile note app. Create, edit, favorite, and delete notes with a trash function for recovery. View edit history for each note. Integrated calendar creates notes for tasks. Personalize notes with 7 color options. Enjoy a new quote on login. Set higher priority notes in the main menu. Requires account creation with Google login via Firebase. Customize profile and delete account if needed.",
 			"features": [
 				{
 					"title": "Authentication",
@@ -297,6 +301,7 @@
 		},
 		{
 			"title": "Natalia-website",
+			"shortDescription": "Check out Natalia's stunning online portfolio, featuring details about her modeling sessions. Explore captivating galleries showcasing her photography. The site boasts seamless animations for a visually striking experience.",
 			"features": [
 				{
 					"title": "Gallery Page",
@@ -335,6 +340,7 @@
 		},
 		{
 			"title": "TravelMark",
+			"shortDescription": "Check out this app to track your visited and planned places. It uses Leaflet, the Weather API from RapidAPI, and reverse geocoding from BigDataCloud. Features include adding and tracking places, selecting dates, displaying current temperature, marking favorites, showing current location on a map, error handling, and data saving in localStorage.",
 			"features": [
 				{
 					"title": "Interactive map",
@@ -377,6 +383,7 @@
 
 		{
 			"title": "Recipe-App",
+			"shortDescription": "Discover a versatile recipe-searching application powered by the Forkify API. With this app, explore an extensive range of recipes tailored to your preferences. Simply input your desired dish or ingredient, and uncover a world of culinary possibilities. Delve deeper into each recipe to view the required ingredients and step-by-step instructions for preparation. Whether you're a seasoned chef or a novice cook, this app provides the tools and inspiration to elevate your culinary adventures.",
 			"features": [
 				{
 					"title": "Searching for recepies",
@@ -419,6 +426,7 @@
 		},
 		{
 			"title": "GnNews",
+			"shortDescription": "This news application customizes news based on the user's country using an API that detects the user's location. Users can also manually select from a list of countries. The page displays available news items and current time",
 			"features": [
 				{
 					"title": "Latest news",

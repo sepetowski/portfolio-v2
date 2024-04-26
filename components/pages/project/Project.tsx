@@ -1,10 +1,10 @@
-import { ProjectPageInfo } from '@/types/types';
+import { Project } from '@/types/types';
 import React from 'react';
 import { Header } from './header/Header';
 import { Main } from './main/Main';
 
 interface Props {
-	projectInfo: ProjectPageInfo;
+	projectInfo: Project;
 }
 
 export const Project = ({ projectInfo }: Props) => {

@@ -2,6 +2,7 @@
 	"projects": [
 		{
 			"title": "StudyFlow",
+			"shortDescription": "StudyFlow: ostateczna aplikacja do produktywności dla współpracy. Twórz przestrzenie robocze, zarządzaj zadaniami i usprawniaj komunikację. Dostosuj ustawienia, taguj zadania i bądź na bieżąco dzięki powiadomieniom. Przydzielaj daty, śledź postępy i maksymalizuj produktywność dzięki funkcji Pomodoro. Witaj w StudyFlow: przyszłości współpracy!",
 			"features": [
 				{
 					"title": "Autoryzacja",
@@ -103,6 +104,7 @@
 		},
 		{
 			"title": "Kivi",
+			"shortDescription": "Kivi: aplikacja społecznościowa dla graczy. Dostosuj profile, śledź innych i odkrywaj gry. Twórz lub dołącz do społeczności, udostępniaj treści i oceniaj wpisy. Ciesz się czatem w czasie rzeczywistym i wybieraj spośród 12 kolorów motywów. Pozostań na bieżąco dzięki powiadomieniom i zapisuj ulubione wpisy. Kivi: miejsce, gdzie gracze się łączą, dzielą się i budują społeczności.",
 			"features": [
 				{
 					"title": "Autoryzacja",
@@ -188,6 +190,7 @@
 		},
 		{
 			"title": "Portfolio",
+			"shortDescription": "Odkryj fascynującą kolekcję moich apliakcji. Zanurz się w świat innowacyjnych projektów. Obejrzyj moje portfolio teraz i zainspiruj się!",
 			"features": [
 				{
 					"title": "Obsługa dwóch języków",
@@ -229,6 +232,7 @@
 		},
 		{
 			"title": "JustNoted",
+			"shortDescription": "JustNoted: wszechstronna aplikacja do notatek. Twórz, edytuj, oznaczaj ulubione i usuwaj notatki z funkcją kosza umożliwiającą ich odzyskanie. Przeglądaj historię edycji dla każdej notatki. Zintegrowany kalendarz tworzy notatki na zadania. Personalizuj notatki wybierając spośród 7 opcji kolorów. Ciesz się nowym cytatem przy logowaniu. Ustaw notatki o wyższym priorytecie w głównym menu. Wymaga utworzenia konta i logowania przez Google za pośrednictwem Firebase. Dostosuj profil i usuń konto w razie potrzeby.",
 			"features": [
 				{
 					"title": "Autoryzacja",
@@ -293,6 +297,7 @@
 		},
 		{
 			"title": "Natalia-website",
+			"shortDescription": "Zobacz oszałamiające portfolio online Natalii, zawierające szczegóły dotyczące jej sesji zdjęciowych. Odkryj fascynujące galerie prezentujące jej fotografie. Strona oferuje płynne animacje, zapewniając wizualnie uderzające doświadczenie.",
 			"features": [
 				{
 					"title": "Strona Galerii",
@@ -331,6 +336,7 @@
 		},
 		{
 			"title": "TravelMark",
+			"shortDescription": "Sprawdź tę aplikację do śledzenia odwiedzonych i planowanych miejsc. Wykorzystuje Leaflet, Weather API z RapidAPI oraz odwrotne geokodowanie z BigDataCloud. Funkcje obejmują dodawanie i śledzenie miejsc, wybieranie dat, wyświetlanie aktualnej temperatury, oznaczanie ulubionych, pokazywanie bieżącej lokalizacji na mapie, obsługę błędów oraz zapisywanie danych w localStorage.",
 			"features": [
 				{
 					"title": "Interaktywna mapa",
@@ -373,6 +379,7 @@
 
 		{
 			"title": "Recipe-App",
+			"shortDescription": "Odkryj wszechstronną aplikację do wyszukiwania przepisów zasilaną przez Forkify API. Dzięki tej aplikacji, eksploruj szeroki zakres przepisów dostosowanych do Twoich preferencji. Wystarczy wprowadzić pożądane danie lub składnik, by odkryć świat kulinarnych możliwości. Zagłęb się głębiej w każdy przepis, aby zobaczyć wymagane składniki i krok po kroku instrukcje przygotowania. Bez względu na to, czy jesteś doświadczonym szefem kuchni czy początkującym kucharzem, ta aplikacja zapewnia narzędzia i inspirację do podniesienia poziomu Twoich kulinarnych przygód.",
 			"features": [
 				{
 					"title": "Wyszukiwanie przepisów",
@@ -415,6 +422,7 @@
 		},
 		{
 			"title": "GnNews",
+			"shortDescription": "Ta aplikacja do wiadomości dostosowuje informacje na podstawie kraju użytkownika, korzystając z interfejsu API, który wykrywa lokalizację użytkownika. Użytkownicy mogą również ręcznie wybrać kraj z listy dostępnych opcji. Strona wyświetla dostępne wiadomości oraz aktualną godzinę.",
 			"features": [
 				{
 					"title": "Najnowsze wiadomości",

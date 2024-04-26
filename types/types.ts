@@ -34,7 +34,7 @@ export interface Feature {
 	desc: string;
 }
 
-export interface ProjectPageInfo {
+export interface Project {
 	title: string;
 	overview: ProjectTitle;
 	technologies: StackCard[];
@@ -43,4 +43,9 @@ export interface ProjectPageInfo {
 	lightThemeImagesLinks: string[];
 	darkThemeImagesLinks: string[] | null;
 	features: Feature[];
+	shortDescription: string;
+}
+
+export interface Params {
+	locale: string;
 }

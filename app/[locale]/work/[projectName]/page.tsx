@@ -1,8 +1,9 @@
 import React from 'react';
-import { promises as fs } from 'fs';
 import { notFound } from 'next/navigation';
-import { ProjectPageInfo } from '@/types/types';
 import { Project } from '@/components/pages/project/Project';
+import { Metadata } from 'next';
+import { getProjectInfo } from '@/lib/getProjectInfo';
+import { getTranslations } from 'next-intl/server';
 
 interface Params {
 	params: {
@@ -11,16 +12,28 @@ interface Params {
 	};
 }
 
+export async function generateMetadata({
+	params: { locale, projectName },
+}: Params): Promise<Metadata> {
+	const [project, t] = await Promise.all([
+		getProjectInfo(projectName, locale),
+		getTranslations({ locale, namespace: 'METADATA.PROJECT' }),
+	]);
+
+	if (!project)
+		return {
+			title: t('NOT_FOUND'),
+			description: t('DESCRIPTION'),
+		};
+
+	return {
+		title: `Sepetowski - ${project.title}`,
+		description: project.shortDescription,
+	};
+}
+
 export const ProjectPage = async ({ params: { projectName, locale } }: Params) => {
-	const file = await fs.readFile(process.cwd() + `/data/${locale}/project.json`, 'utf8');
-	if (!file) notFound();
-
-	const data: { projects: ProjectPageInfo[] } = JSON.parse(file);
-	const projects = data.projects;
-
-	const project = projects.find(
-		(project) => project.title.toLowerCase() === projectName.toLowerCase()
-	);
+	const project = await getProjectInfo(projectName, locale);
 	if (!project) notFound();
 
 	return <Project projectInfo={project} />;

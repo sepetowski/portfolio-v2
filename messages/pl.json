@@ -28,7 +28,7 @@
 					"FOURTH": "najlepszych projektów",
 					"FIFTH": "które zbudowałem"
 				},
-				"TEXT_EFFECT": "Tworzenie połączeń między kreatywnością a innowacją.",
+				"TEXT_EFFECT": "Łączenie kreatywności z innowacją.",
 				"BUTTON": "Sprawdź"
 			},
 			"MAIN": {
@@ -44,7 +44,7 @@
 					"FOURTH": "mnie",
 					"FIFTH": "lepiej?"
 				},
-				"TEXT_EFFECT": "Budowanie cyfrowych krajobrazów, piksel po pikselu.",
+				"TEXT_EFFECT": "Kreowanie cyfrowych krajobrazów, piksel po pikselu",
 				"BUTTONS": {
 					"TOOLS": "Sprawdź moje narzędzia",
 					"ABOUT": "O mnie"
@@ -62,7 +62,7 @@
 					"THIRD": "Skontaktuj się",
 					"FOURTH": "ze mną"
 				},
-				"TEXT_EFFECT": "Załóżmy wspólnie magię.",
+				"TEXT_EFFECT": "Stwórzmy wspólnie magię.",
 				"BUTTON": "Skontaktuj się ze mną"
 			},
 			"MAIN": {
@@ -71,7 +71,7 @@
 		},
 		"PROJECT": {
 			"HEADER": {
-				"TEXT_EFFECT": "Pasjonująco wykonane z sercem i duszą.",
+				"TEXT_EFFECT": "Stworzone z pasji i z miłością.",
 				"BUTTONS": {
 					"LIVE": "Wypróbuj!",
 					"REPO": "Kod repozytorium"
@@ -79,6 +79,13 @@
 			},
 			"MAIN": {
 				"TITLE": "Funkcje"
+			}
+		},
+		"NOT_FOUND": {
+			"TITLE": "Ups! Zagubiony w kosmosie?",
+			"TEXT": {
+				"FIRST": "Sprawdź ponownie adres URL lub wróć do",
+				"SECOND": "strony głównej"
 			}
 		}
 	},
@@ -127,9 +134,9 @@
 				"ALT": "Aplikacja TravelMark"
 			},
 			"RECIPE_APP": {
-				"TITLE": "Aplikacja Przepisów",
+				"TITLE": "Recipe app",
 				"SUBTITLE": "Znajdź przepisy, które chcesz",
-				"ALT": "Aplikacja Przepisów"
+				"ALT": "Recipe app"
 			},
 			"GN_NEWS": {
 				"TITLE": "GnNews",
@@ -187,6 +194,27 @@
 				}
 			},
 			"BUTTON": "Zamknij"
+		}
+	},
+	"METADATA": {
+		"ROOT": {
+			"DESCRIPTION": "Witaj w moim portfolio! Jestem pasjonującym programistą webowym specjalizującym się w tworzeniu oszałamiających i funkcjonalnych stron internetowych oraz aplikacji. Zapoznaj się z moimi pracami i skontaktuj się, aby omówić swój następny projekt. Przenieśmy Twoje pomysły na życie!"
+		},
+		"WORK": {
+			"TITLE": "Sepetowski - Moje Prace",
+			"DESCRIPTION": "Zapoznaj się z moim portfolio, aby odkryć kolekcję projektów demonstrujących moje umiejętności w zakresie programowania webowego. Od responsywnych stron internetowych po dynamiczne aplikacje internetowe, każdy projekt prezentuje staranność w szczegółach, innowacyjny design i płynne doświadczenie użytkownika."
+		},
+		"ABOUT": {
+			"TITLE": "Sepetowski - O Mnie",
+			"DESCRIPTION": "Poznaj mnie, osobę stojącą za kodem. Z doświadczeniem w programowaniu webowym i pasją do technologii, przynoszę unikalne połączenie kreatywności, umiejętności technicznych i zdolności do rozwiązywania problemów do każdego projektu. Dowiedz się więcej o mojej drodze, umiejętnościach i zainteresowaniach."
+		},
+		"CONTACT": {
+			"TITLE": "Sepetowski - Skontaktuj Się Ze Mną",
+			"DESCRIPTION": "Skontaktuj się ze mną, aby omówić swój następny projekt programowania webowego. Bez względu na to, czy masz konkretny pomysł, czy potrzebujesz pomocy w generowaniu rozwiązań, jestem tutaj, aby pomóc. Skontaktuj się dzisiaj, aby rozpocząć rozmowę i przekształcić swoją wizję w rzeczywistość."
+		},
+		"PROJECT": {
+			"NOT_FOUND": "Projekt nie został znaleziony",
+			"DESCRIPTION": "Ups! Wygląda na to, że żądany projekt nie jest dostępny. Zapoznaj się z moim portfolio, aby odkryć inne ekscytujące projekty, lub skontaktuj się, aby zapytać o konkretne projekty lub współpracę."
 		}
 	}
 }

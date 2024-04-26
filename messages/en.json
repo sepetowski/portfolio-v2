@@ -80,6 +80,13 @@
 			"MAIN": {
 				"TITLE": "Features"
 			}
+		},
+		"NOT_FOUND": {
+			"TITLE": "Uh-oh! Lost in Space?",
+			"TEXT": {
+				"FIRST": "Check the URL again or go back to",
+				"SECOND": "home page"
+			}
 		}
 	},
 	"COMPONENTS": {
@@ -187,6 +194,27 @@
 				}
 			},
 			"BUTTON": "Close"
+		}
+	},
+	"METADATA": {
+		"ROOT": {
+			"DESCRIPTION": "Welcome to my portfolio! I'm a passionate web developer specializing in creating stunning and functional websites and applications. Explore my work and get in touch to discuss your next project. Let's bring your ideas to life!"
+		},
+		"WORK": {
+			"TITLE": "Sepetowski - My Work",
+			"DESCRIPTION": "Explore my portfolio to discover a collection of projects demonstrating my expertise in web development. From responsive websites to dynamic web applications, each project showcases meticulous attention to detail, innovative design, and seamless user experience."
+		},
+		"ABOUT": {
+			"TITLE": "Sepetowski - About Me",
+			"DESCRIPTION": "Get to know me, the person behind the code. With a background in web development and a passion for technology, I bring a unique blend of creativity, technical skills, and problem-solving abilities to every project. Learn more about my journey, skills, and interests."
+		},
+		"CONTACT": {
+			"TITLE": "Sepetowski - Contact Me",
+			"DESCRIPTION": "Connect with me to discuss your next web development project. Whether you have a specific idea in mind or need assistance brainstorming solutions, I'm here to help. Reach out today to start a conversation and turn your vision into reality."
+		},
+		"PROJECT": {
+			"NOT_FOUND": "Project not found",
+			"DESCRIPTION": "Oops! It seems like the requested project is not available. Explore my portfolio to discover other exciting projects or get in touch to inquire about specific projects or collaborations."
 		}
 	}
 }
