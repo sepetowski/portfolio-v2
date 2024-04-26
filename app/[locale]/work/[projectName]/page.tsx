@@ -4,6 +4,7 @@ import { Project } from '@/components/pages/project/Project';
 import { Metadata } from 'next';
 import { getProjectInfo } from '@/lib/getProjectInfo';
 import { getTranslations } from 'next-intl/server';
+import { SITE_NAME } from '@/lib/constants';
 
 interface Params {
 	params: {
@@ -27,12 +28,12 @@ export async function generateMetadata({
 		};
 
 	return {
-		title: `Sepetowski - ${project.title}`,
+		title: `${SITE_NAME} - ${project.title}`,
 		description: project.shortDescription,
 	};
 }
 
-export const ProjectPage = async ({ params: { projectName, locale } }: Params) => {
+const ProjectPage = async ({ params: { projectName, locale } }: Params) => {
 	const project = await getProjectInfo(projectName, locale);
 	if (!project) notFound();
 

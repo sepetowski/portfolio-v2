@@ -17,7 +17,7 @@ export async function generateMetadata({
 	};
 }
 
-export const AboutPage = () => {
+const AboutPage = () => {
 	return <About />;
 };
 

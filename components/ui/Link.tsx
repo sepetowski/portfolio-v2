@@ -12,7 +12,7 @@ export const Link = ({
 	...props
 }: LinkProps) => {
 	return (
-		<NextUiLink className={className} color={color} size={size} as={NextIntlLink} {...props}>
+		<NextUiLink className={className} size={size} color={color} {...props} as={NextIntlLink}>
 			{children}
 		</NextUiLink>
 	);

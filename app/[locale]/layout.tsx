@@ -7,6 +7,7 @@ import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { getTranslations } from 'next-intl/server';
 import { Params } from '@/types/types';
+import { SITE_NAME } from '@/lib/constants';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,12 +24,11 @@ export async function generateMetadata({
 	const t = await getTranslations({ locale, namespace: 'METADATA.ROOT' });
 
 	return {
-		title: 'Sepetowski',
+		title: SITE_NAME,
 		description: t('DESCRIPTION'),
 	};
 }
-
-export default function RootLayout({ children, params: { locale } }: Readonly<LayoutProps>) {
+const RootLayout = ({ children, params: { locale } }: Readonly<LayoutProps>) => {
 	const messages = useMessages();
 
 	return (
@@ -46,4 +46,6 @@ export default function RootLayout({ children, params: { locale } }: Readonly<La
 			</body>
 		</html>
 	);
-}
+};
+
+export default RootLayout;

@@ -17,7 +17,7 @@ export async function generateMetadata({
 	};
 }
 
-export const WorkPage = () => {
+const WorkPage = () => {
 	return <Work />;
 };
 

@@ -17,7 +17,7 @@ export async function generateMetadata({
 	};
 }
 
-export const ContactPage = () => {
+const ContactPage = () => {
 	return <Contact />;
 };
 

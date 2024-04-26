@@ -1,10 +1,10 @@
-import { Project } from '@/types/types';
+import { Project as IProject } from '@/types/types';
 import React from 'react';
 import { Header } from './header/Header';
 import { Main } from './main/Main';
 
 interface Props {
-	projectInfo: Project;
+	projectInfo: IProject;
 }
 
 export const Project = ({ projectInfo }: Props) => {
