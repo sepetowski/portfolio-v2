@@ -8,13 +8,16 @@ import { FormSchema, formSchema } from '@/schema/formSchema';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import axios from 'axios';
 import { EmialSendInfo } from './EmialSendInfo';
+import { useTranslations } from 'next-intl';
 
 export const Form = () => {
+	const t = useTranslations('COMPONENTS.CONTACT_FORM');
+
 	const [isSending, setIsSending] = useState(false);
-	const [wasError, setWasError] = useState(false);
+	const [wasError, setWasError] = useState(true);
 
 	const { isOpen, onOpen, onOpenChange } = useDisclosure();
-	const [lastEmailName, setLastEmailName] = useState('');
+	const [lastSenderName, setLastSenderName] = useState('');
 
 	const {
 		register,
@@ -43,7 +46,7 @@ export const Form = () => {
 		}
 
 		setIsSending(false);
-		setLastEmailName(formData.name);
+		setLastSenderName(formData.name);
 		reset();
 		onOpen();
 	};
@@ -52,22 +55,21 @@ export const Form = () => {
 		<section className=' flex justify-center items-center flex-col w-full'>
 			<form onSubmit={handleSubmit(onSubmit)} className=' mt-10 lg:mt-12 w-full max-w-xl space-y-4'>
 				<Input
-					label='Your name'
+					label={t('NAME.LABEL')}
 					{...register('name')}
-					errorMessage={errors.name?.message}
+					errorMessage={errors.name?.message && t(errors.name?.message)}
 					isInvalid={!!errors.name?.message}
 				/>
 				<Input
-					label='Your email'
-					errorMessage={errors.email?.message}
+					label={t('EMAIL.LABEL')}
+					errorMessage={errors.email?.message && t(errors.email?.message)}
 					isInvalid={!!errors.email?.message}
 					{...register('email')}
 				/>
 				<Textarea
-					label='Your Message'
-					id='message'
+					label={t('MESSAGE.LABEL')}
 					minRows={10}
-					errorMessage={errors.message?.message}
+					errorMessage={errors.message?.message && t(errors.message?.message)}
 					isInvalid={!!errors.message?.message}
 					{...register('message')}
 				/>
@@ -79,14 +81,14 @@ export const Form = () => {
 					size='lg'
 					color='primary'
 					startContent={!isSending ? <Mail size={20} /> : null}>
-					{isSending ? 'Sending.. Please wait' : '	Send me a message'}
+					{isSending ? t('BUTTON.SENDING') : t('BUTTON.SEND')}
 				</Button>
 			</form>
 			<EmialSendInfo
 				wasError={wasError}
 				isOpen={isOpen}
 				onOpenChange={onOpenChange}
-				lastEmailName={lastEmailName}
+				lastSenderName={lastSenderName}
 			/>
 		</section>
 	);

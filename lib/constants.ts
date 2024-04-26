@@ -31,64 +31,67 @@ import {
 	Workflow,
 } from 'lucide-react';
 
+export const SITE_NAME = 'Sepetowski';
+export const MY_EMAIL = 'jakubsepetowskipraca@gmail.com';
+
 export const MY_ALL_WORKS: WorkCard[] = [
 	{
-		title: 'StudyFlow',
-		subTitle: 'Increase your productivity',
-		alt: 'StudyFlow app',
+		title: 'STUDY_FLOW.TITLE',
+		subtitle: 'STUDY_FLOW.SUBTITLE',
+		alt: 'STUDY_FLOW.ALT',
 		linkHref: '/work/StudyFlow',
 		src: '/images/studyFlow/studyFlow6',
 		hasDarkMorde: true,
 	},
 	{
-		title: 'Kivi',
-		subTitle: 'Social app for gamers',
-		alt: 'Kivi app',
+		title: 'KIVI.TITLE',
+		subtitle: 'KIVI.SUBTITLE',
+		alt: 'KIVI.ALT',
 		linkHref: '/work/Kivi',
 		src: '/images/kivi/kivi',
 		hasDarkMorde: true,
 	},
 	{
-		title: 'My portfolio webiste',
-		subTitle: 'It is this webiste',
-		alt: 'My portfolio webiste',
+		title: 'MY_PORTFOLIO.TITLE',
+		subtitle: 'MY_PORTFOLIO.SUBTITLE',
+		alt: 'MY_PORTFOLIO.ALT',
 		linkHref: '/work/Portfolio',
 		src: '/images/portfolio/portfolio',
 		hasDarkMorde: true,
 	},
 	{
-		title: 'JustNoted',
-		subTitle: 'Manage your notes',
-		alt: 'JustNoted app',
+		title: 'JUST_NOTED.TITLE',
+		subtitle: 'JUST_NOTED.SUBTITLE',
+		alt: 'JUST_NOTED.ALT',
 		linkHref: '/work/JustNoted',
 		src: '/images/justNoted/justNoted.png',
 	},
 
 	{
-		title: "Natalia's portfolio website",
-		subTitle: 'Made on order',
-		alt: "Natalia's portfolio website",
+		title: 'NATALIA_SITE.TITLE',
+		subtitle: 'NATALIA_SITE.SUBTITLE',
+		alt: 'NATALIA_SITE.ALT',
 		linkHref: '/work/Natalia-website',
 		src: '/images/NataliaWebsite/nataliaSite.png',
 	},
 	{
-		title: 'TravelMark',
-		subTitle: 'Stay organized while traveling',
-		alt: 'TravelMark app',
+		title: 'TRAVEL_MARK.TITLE',
+		subtitle: 'TRAVEL_MARK.SUBTITLE',
+		alt: 'TRAVEL_MARK.ALT',
 		linkHref: '/work/TravelMark',
 		src: '/images/travelMark/travelMark.png',
 	},
 	{
-		title: 'Recipe App',
-		subTitle: 'Find the recipes you want',
-		alt: 'Recipe App',
+		title: 'RECIPE_APP.TITLE',
+		subtitle: 'RECIPE_APP.SUBTITLE',
+		alt: 'RECIPE_APP.ALT',
 		linkHref: '/work/Recipe-App',
 		src: '/images/recipeApp/recipeApp.png',
 	},
 	{
-		title: 'GnNews',
-		subTitle: 'The lates news',
-		alt: 'GnNews app',
+		title: 'GN_NEWS.TITLE',
+		subtitle: 'GN_NEWS.SUBTITLE',
+		alt: 'GN_NEWS.ALT',
 		linkHref: '/work/GnNews',
 		src: '/images/gnNews/gnNews',
 		hasDarkMorde: true,
@@ -130,18 +133,18 @@ export const MY_STACK: StackCard[] = [
 
 export const ABOUT_ME_CARDS: CardReveal[] = [
 	{
-		title: 'Student',
-		desc: "I'm a dedicated computer science student at Silesian University of Technology. Passionate about tech and innovation, I'm always expanding my skills. With a keen problem-solving interest, I aim to make a difference in the computing world.",
+		title: 'STUDENT.TITLE',
+		desc: 'STUDENT.DESC',
 		Icon: Book,
 	},
 	{
-		title: 'Hobby',
-		desc: "In my free time, I'm an avid gamer, finding joy in exploring virtual worlds and mastering gameplay. Music is another passion of mine—I love immersing myself in various genres and occasionally strumming away on my guitar, letting the melodies resonate.",
+		title: 'HOBBY.TITLE',
+		desc: 'HOBBY.DESC',
 		Icon: Gamepad2,
 	},
 	{
-		title: 'Programming',
-		desc: "In my programming endeavors, I find my true passion. Whether it's diving into complex algorithms or crafting elegant code solutions, I am deeply immersed in the world of programming. It's not just a skill but a genuine passion that drives me to continuously learn and innovate in this dynamic field.",
+		title: 'PROGRAMMING.TITLE',
+		desc: 'PROGRAMMING.DESC',
 		Icon: Code,
 	},
 ];

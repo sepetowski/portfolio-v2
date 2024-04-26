@@ -7,6 +7,7 @@ import { useTheme } from 'next-themes';
 import { SparklesCore } from '@/components/ui/Sparkles';
 import { StackCard as IStackCard } from '@/types/types';
 import { cn } from '@/lib/cn';
+import { useTranslations } from 'next-intl';
 interface Props {
 	title: string;
 	cards: IStackCard[];
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export const MyStack = ({ cards, title, sparklesContainerClassName, id }: Props) => {
+	const t = useTranslations('COMPONENTS.MY_STACK');
 	const [color, setColor] = useState('#FFFFFF');
 	const { theme } = useTheme();
 
@@ -27,7 +29,7 @@ export const MyStack = ({ cards, title, sparklesContainerClassName, id }: Props)
 				<div className='w-full flex justify-center items-center gap-4 sm:gap-6 '>
 					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44  xl:w-80' />
 					<h2 className='text-default-400 uppercase sm:text-lg md:text-2xl  text-center inline-block '>
-						{title}
+						{t(title)}
 					</h2>
 					<Divider className='w-10 sm:w-16 md:w-40 lg:w-44   xl:w-80' />
 				</div>

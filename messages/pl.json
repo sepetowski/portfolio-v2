@@ -1,5 +1,220 @@
 {
-	"INDEX": {
-		"TITLE": "Witaj świecie!"
+	"PAGES": {
+		"HOME": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Cześć, jestem",
+					"SECOND": "Jakub",
+					"THIRD": "Jestem",
+					"FOURTH": "full-stack",
+					"FIFTH": "web developerem"
+				},
+				"TEXT_EFFECT": "Budowanie mostów między wyobraźnią a technologią.",
+				"BUTTONS": {
+					"WORK": "Zobacz moje prace",
+					"ABOUT": "O mnie"
+				}
+			},
+			"MAIN": {
+				"TITLE": "Moje najnowsze prace"
+			}
+		},
+		"WORK": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Sprawdź",
+					"SECOND": "niektóre z",
+					"THIRD": "moich",
+					"FOURTH": "najlepszych projektów",
+					"FIFTH": "które zbudowałem"
+				},
+				"TEXT_EFFECT": "Łączenie kreatywności z innowacją.",
+				"BUTTON": "Sprawdź"
+			},
+			"MAIN": {
+				"TITLE": "Wszystkie moje projekty"
+			}
+		},
+		"ABOUT": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Czy",
+					"SECOND": "chciałbyś",
+					"THIRD": "poznać",
+					"FOURTH": "mnie",
+					"FIFTH": "lepiej?"
+				},
+				"TEXT_EFFECT": "Kreowanie cyfrowych krajobrazów, piksel po pikselu",
+				"BUTTONS": {
+					"TOOLS": "Sprawdź moje narzędzia",
+					"ABOUT": "O mnie"
+				}
+			},
+			"MAIN": {
+				"TITLE": "O mnie"
+			}
+		},
+		"CONTACT": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Potrzebujesz",
+					"SECOND": "pięknej strony?",
+					"THIRD": "Skontaktuj się",
+					"FOURTH": "ze mną"
+				},
+				"TEXT_EFFECT": "Stwórzmy wspólnie magię.",
+				"BUTTON": "Skontaktuj się ze mną"
+			},
+			"MAIN": {
+				"TITLE": "Skontaktuj się ze mną"
+			}
+		},
+		"PROJECT": {
+			"HEADER": {
+				"TEXT_EFFECT": "Stworzone z pasji i z miłością.",
+				"BUTTONS": {
+					"LIVE": "Wypróbuj!",
+					"REPO": "Kod repozytorium"
+				}
+			},
+			"MAIN": {
+				"TITLE": "Funkcje"
+			}
+		},
+		"NOT_FOUND": {
+			"TITLE": "Ups! Zagubiony w kosmosie?",
+			"TEXT": {
+				"FIRST": "Sprawdź ponownie adres URL lub wróć do",
+				"SECOND": "strony głównej"
+			}
+		}
+	},
+	"COMPONENTS": {
+		"MY_STACK": {
+			"ALL_STACK_TTILE": "Moje narzędzia",
+			"CREATED_WITH": "Stworzone za pomocą"
+		},
+		"NAV": {
+			"WORK": "Prace",
+			"ABOUT": "O mnie",
+			"CONTACT": "Kontakt"
+		},
+		"FOOTER": {
+			"DEPLOYED": "Wdrożone na"
+		},
+		"WORK_CARDS": {
+			"STUDY_FLOW": {
+				"TITLE": "StudyFlow",
+				"SUBTITLE": "Zwiększ swoją produktywność",
+				"ALT": "Aplikacja StudyFlow"
+			},
+			"KIVI": {
+				"TITLE": "Kivi",
+				"SUBTITLE": "Społeczna aplikacja dla graczy",
+				"ALT": "Aplikacja Kivi"
+			},
+			"MY_PORTFOLIO": {
+				"TITLE": "Moja strona portfolio",
+				"SUBTITLE": "To jest ta strona",
+				"ALT": "Moja strona portfolio"
+			},
+			"JUST_NOTED": {
+				"TITLE": "JustNoted",
+				"SUBTITLE": "Zarządzaj swoimi notatkami",
+				"ALT": "Aplikacja JustNoted"
+			},
+			"NATALIA_SITE": {
+				"TITLE": "Strona portfolio Natalii",
+				"SUBTITLE": "Wykonana na zamówienie",
+				"ALT": "Strona portfolio Natalii"
+			},
+			"TRAVEL_MARK": {
+				"TITLE": "TravelMark",
+				"SUBTITLE": "Zostań zorganizowany podczas podróży",
+				"ALT": "Aplikacja TravelMark"
+			},
+			"RECIPE_APP": {
+				"TITLE": "Recipe app",
+				"SUBTITLE": "Znajdź przepisy, które chcesz",
+				"ALT": "Recipe app"
+			},
+			"GN_NEWS": {
+				"TITLE": "GnNews",
+				"SUBTITLE": "Najnowsze wiadomości",
+				"ALT": "Aplikacja GnNews"
+			},
+			"BUTTON": "Sprawdź"
+		},
+		"ABOUT_ME_CARDS": {
+			"STUDENT": {
+				"TITLE": "Student",
+				"DESC": "Jestem zaangażowanym studentem informatyki na Politechnice Śląskiej. Pasjonuję się technologią i innowacjami, ciągle poszerzając moje umiejętności. Z zainteresowaniem rozwiązuję problemy i dążę do zmiany w świecie informatyki."
+			},
+			"HOBBY": {
+				"TITLE": "Hobby",
+				"DESC": "W wolnym czasie jestem zapalonym graczem, czerpiącym radość z eksplorowania wirtualnych światów i doskonalenia rozgrywki. Muzyka to kolejna moja pasja – uwielbiam zanurzać się w różnych gatunkach i od czasu do czasu pobrzękiwać na gitarze, pozwolić melodiom rozbrzmiewać."
+			},
+			"PROGRAMMING": {
+				"TITLE": "Programowanie",
+				"DESC": "W programowaniu odnajduję moją prawdziwą pasję. Bez względu na to, czy to zagłębianie się w złożone algorytmy czy tworzenie eleganckich rozwiązań kodowych, jestem głęboko pogrążony w świecie programowania. To nie tylko umiejętność, ale prawdziwa pasja, która motywuje mnie do ciągłego uczenia się i innowowania w tym dynamicznym dziedzinie."
+			}
+		},
+		"CONTACT_FORM": {
+			"NAME": {
+				"LABEL": "Twoje imię",
+				"ERROR_MESSAGE_NO_NAME": "Proszę podaj swoje imię",
+				"ERROR_MESSAGE_TOO_LONG": "Imię jest za długie"
+			},
+			"EMAIL": {
+				"LABEL": "Twój email",
+				"ERROR_MESSAGE_NO_EMAIL": "Proszę podaj swój email",
+				"ERROR_MESSAGE_TOO_LONG": "Email jest za długi"
+			},
+			"MESSAGE": {
+				"LABEL": "Twoja wiadomość",
+				"ERROR_MESSAGE_NO_MESSAGE": "Proszę podaj wiadomość",
+				"ERROR_MESSAGE_TOO_LONG": "Twoja wiadomość jest za długa"
+			},
+			"BUTTON": {
+				"SEND": "Wyślij mi wiadomość",
+				"SENDING": "Wysyłanie... Proszę czekać"
+			}
+		},
+		"EMAIL_SEND_MODAL": {
+			"ERROR": {
+				"TITLE": "Coś poszło nie tak",
+				"MESSAGE": "Wystąpił problem podczas wysyłania Twojej wiadomości. Proszę spróbuj ponownie lub wyślij mi wiadomość bezpośrednio na"
+			},
+			"SEND": {
+				"TITLE": "Email został wysłany",
+				"MESSAGE": {
+					"FIRST": "Dziękuję",
+					"SECOND": "za Twoją wiadomość.",
+					"THIRD": "Skontaktuję się z Tobą tak szybko, jak to możliwe!"
+				}
+			},
+			"BUTTON": "Zamknij"
+		}
+	},
+	"METADATA": {
+		"ROOT": {
+			"DESCRIPTION": "Witaj w moim portfolio! Jestem pasjonującym programistą webowym specjalizującym się w tworzeniu oszałamiających i funkcjonalnych stron internetowych oraz aplikacji. Zapoznaj się z moimi pracami i skontaktuj się, aby omówić swój następny projekt. Przenieśmy Twoje pomysły na życie!"
+		},
+		"WORK": {
+			"TITLE": "Sepetowski - Moje Prace",
+			"DESCRIPTION": "Zapoznaj się z moim portfolio, aby odkryć kolekcję projektów demonstrujących moje umiejętności w zakresie programowania webowego. Od responsywnych stron internetowych po dynamiczne aplikacje internetowe, każdy projekt prezentuje staranność w szczegółach, innowacyjny design i płynne doświadczenie użytkownika."
+		},
+		"ABOUT": {
+			"TITLE": "Sepetowski - O Mnie",
+			"DESCRIPTION": "Poznaj mnie, osobę stojącą za kodem. Z doświadczeniem w programowaniu webowym i pasją do technologii, przynoszę unikalne połączenie kreatywności, umiejętności technicznych i zdolności do rozwiązywania problemów do każdego projektu. Dowiedz się więcej o mojej drodze, umiejętnościach i zainteresowaniach."
+		},
+		"CONTACT": {
+			"TITLE": "Sepetowski - Skontaktuj Się Ze Mną",
+			"DESCRIPTION": "Skontaktuj się ze mną, aby omówić swój następny projekt programowania webowego. Bez względu na to, czy masz konkretny pomysł, czy potrzebujesz pomocy w generowaniu rozwiązań, jestem tutaj, aby pomóc. Skontaktuj się dzisiaj, aby rozpocząć rozmowę i przekształcić swoją wizję w rzeczywistość."
+		},
+		"PROJECT": {
+			"NOT_FOUND": "Projekt nie został znaleziony",
+			"DESCRIPTION": "Ups! Wygląda na to, że żądany projekt nie jest dostępny. Zapoznaj się z moim portfolio, aby odkryć inne ekscytujące projekty, lub skontaktuj się, aby zapytać o konkretne projekty lub współpracę."
+		}
 	}
 }

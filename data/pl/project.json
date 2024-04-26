@@ -2,63 +2,64 @@
 	"projects": [
 		{
 			"title": "StudyFlow",
+			"shortDescription": "StudyFlow: ostateczna aplikacja do produktywności dla współpracy. Twórz przestrzenie robocze, zarządzaj zadaniami i usprawniaj komunikację. Dostosuj ustawienia, taguj zadania i bądź na bieżąco dzięki powiadomieniom. Przydzielaj daty, śledź postępy i maksymalizuj produktywność dzięki funkcji Pomodoro. Witaj w StudyFlow: przyszłości współpracy!",
 			"features": [
 				{
-					"title": "Authentication",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Autoryzacja",
+					"desc": "Oferuje wszechstronne opcje logowania, umożliwiając użytkownikom dostęp do aplikacji przy użyciu danych logowania, kont Google lub GitHub. Bezpieczeństwo jest najważniejsze, zapewnione dzięki implementacji JWT (JSON Web Tokens), gwarantując bezpieczne i chronione wrażenia użytkownika."
 				},
 				{
-					"title": "Two languages support",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Obsługa dwóch języków",
+					"desc": "Aplikacja obsługuje funkcje dwujęzyczne, obsługując zarówno użytkowników polskojęzycznych, jak i anglojęzycznych. Zapewnia to płynną obsługę użytkownikom niezależnie od ich preferencji językowych, zwiększając dostępność i użyteczność w różnych środowiskach językowych."
 				},
 				{
-					"title": "Role-based collaboration",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Współpraca oparta na rolach",
+					"desc": "Zapewnia ustrukturyzowaną kontrolę dostępu w ramach obszarów roboczych. Dzięki odrębnym rolom, takim jak właściciel, administrator, redaktor i przeglądający, użytkownicy mają szczegółową kontrolę nad uprawnieniami, umożliwiając wydajną współpracę przy jednoczesnym zachowaniu integralności i bezpieczeństwa danych."
 				},
 				{
-					"title": "Workspaces",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Przestrzenie robocze",
+					"desc": "Umożliwienie użytkownikom tworzenia swoich przestrzeni do wspólnej pracy. Zaproś członków zespołu i współpracowników do tych przestrzeni roboczych i ciesz się płynną współpracą umożliwiającą wydajne zarządzanie projektami."
 				},
 
 				{
-					"title": "Mind maps",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Mapy myśli",
+					"desc": "Dostosuj kolory kafelków i typy połączeń w mapach myśli, umożliwiając użytkownikom dostosowanie wizualizacji do ich preferencji. Edytowalne typy połączeń pozwalają na zniuansowaną eksplorację złożonych pomysłów."
 				},
 				{
-					"title": "Tasks",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Zadania",
+					"desc": "Zaawansowany edytor tekstu zadań pozwala na bogate formatowanie tekstu, w tym możliwość dodawania obrazów, linków, dostosowywania rozmiaru nagłówka i koloru czcionki. To wszechstronne narzędzie usprawnia zarządzanie zadaniami, oferując różnorodne opcje dostosowywania."
 				},
 				{
-					"title": "Group chat",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Czat grupowy",
+					"desc": "Umożliwia komunikację w czasie rzeczywsitym między członkami zespołu w ramach obszarów roboczych. Płynnie udostępniaj pliki, omawiaj zadania i efektywnie współpracuj bez opuszczania aplikacji, wspierając produktywność i pracę zespołową."
 				},
 				{
-					"title": "Integrated calendar",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Zintegrowany kalendarz",
+					"desc": "Płynnie wizualizuj swoje zadania wraz z przypisanymi do nich datami, zapewniając przejrzysty przegląd harmonogramu i terminów."
 				},
 				{
 					"title": "Pomodoro",
-					"desc": "lorem lorem lorem lorem"
+					"desc": "Konfigurowalna funkcja timera Pomodoro usprawnia zarządzanie czasem podczas sesji roboczych. Użytkownicy mogą dostosować czas przerw, długość sesji i ustawienia powiadomień do swoich preferencji, zapewniając optymalny przepływ pracy."
 				},
 				{
-					"title": "Notifications",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Powiadomienia",
+					"desc": "Dzięki powiadomieniom w czasie rzeczywistym nigdy nie przegapisz ważnych aktualizacji."
 				},
 				{
-					"title": "Tagging system",
-					"desc": "lorem lorem lorem lorem"
+					"title": "System tagów",
+					"desc": "Bez wysiłku kategoryzuj i pobieraj zadania i mapy myśli, korzystając z naszego systemu tagowania w obszarach roboczych, usprawniając organizację i ułatwiając wydajną nawigację."
 				},
 				{
-					"title": "Assignment system",
-					"desc": "lorem lorem lorem lorem"
+					"title": "System przypisań",
+					"desc": "Usprawnij zarządzanie projektami i odpowiedzialność, bez wysiłku przypisując zadania i mapy myśli do określonych użytkowników w obszarze roboczym. Funkcja ta poprawia koordynację i zapewnia przejrzystość w zakresie obowiązków."
 				}
 			],
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "easily collaborate",
-				"thirdSection": "in projects",
-				"fourthSection": "and stay",
-				"fifthSection": "organized?"
+				"firstSection": "Czy cenisz",
+				"secondSection": "łatwość współpracy",
+				"thirdSection": "przy",
+				"fourthSection": "swoich",
+				"fifthSection": "projektach?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -103,53 +104,51 @@
 		},
 		{
 			"title": "Kivi",
+			"shortDescription": "Kivi: aplikacja społecznościowa dla graczy. Dostosuj profile, śledź innych i odkrywaj gry. Twórz lub dołącz do społeczności, udostępniaj treści i oceniaj wpisy. Ciesz się czatem w czasie rzeczywistym i wybieraj spośród 12 kolorów motywów. Pozostań na bieżąco dzięki powiadomieniom i zapisuj ulubione wpisy. Kivi: miejsce, gdzie gracze się łączą, dzielą się i budują społeczności.",
 			"features": [
 				{
-					"title": "Authentication",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Autoryzacja",
+					"desc": "Oferuje wszechstronne opcje logowania, umożliwiając użytkownikom dostęp do aplikacji przy użyciu danych logowania, kont Google lub GitHub. Bezpieczeństwo jest najważniejsze, zapewnione dzięki implementacji JWT (JSON Web Tokens), gwarantując bezpieczne i chronione wrażenia użytkownika."
 				},
 				{
-					"title": "Communities",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Społeczności",
+					"desc": "Zaangażuj się w żywe społeczności, publikując treści i uczestnicząc w dyskusjach. Założyciele społeczności mają pełną kontrolę nad treściami, zapewniając skuratyzowane i spójne doświadczenie dla członków."
 				},
 				{
-					"title": "Posts & Comments",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Posty i Komentarze",
+					"desc": "Współdziałaj z postami poprzez komentowanie, i ciesz się możliwością edycji lub usunięcia swoich własnych postów. Wzbogacaj posty obrazami, aby wzbogacić treść i skutecznie angażować swoją publiczność."
 				},
 				{
-					"title": "Like & Dislike interactions ",
-					"desc": "lorem lorem lorem lorem"
-				},
-
-				{
-					"title": "Profile customization",
-					"desc": "lorem lorem lorem lorem"
-				},
-
-				{
-					"title": "Chats",
-					"desc": "lorem lorem lorem lorem"
-				},
-
-				{
-					"title": "Notifications",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Interakcje Polubienia i Niepolubienia",
+					"desc": "Wyrażaj uznanie lub sprzeciw poprzez polubienie lub niepolubienie treści, pozwalając użytkownikom skutecznie wyrażać swoje uczucia i angażować się w posty w znaczący sposób."
 				},
 				{
-					"title": "Explore tab",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Personalizacja Profilu",
+					"desc": "Dostosuj swój profil, aby odzwierciedlał Twoją osobowość, zmieniając swoją nazwę użytkownika, modyfikując opis profilu i wybierając obraz tła. Możesz również spersonalizować swój awatar, aby Twój profil był wyjątkowy."
 				},
 				{
-					"title": "Saved posts",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Czaty",
+					"desc": "Zaangażuj się w rozmowy w czasie rzeczywistym dzięki czatom, zapewniając płynną komunikację. Dostosuj swoje doświadczenie czatu, wybierając preferowany motyw spośród palety 12 różnych kolorów, dodając osobisty akcent do swoich interakcji."
+				},
+				{
+					"title": "Powiadomienia",
+					"desc": "Dzięki powiadomieniom w czasie rzeczywistym nigdy nie przegapisz ważnych aktualizacji."
+				},
+				{
+					"title": "Zakładka Eksploruj",
+					"desc": "Łatwo odkrywaj i nawiązuj kontakt z innymi użytkownikami. Skutecznie zarządzaj historią wyszukiwania, aby zoptymalizować swój proces eksploracji."
+				},
+				{
+					"title": "Zapisane Posty",
+					"desc": "Łatwo zapisuj i ponownie odwiedzaj dowolne posty za pomocą funkcji zapisywania postów."
 				}
 			],
 			"overview": {
-				"firstSection": "Are you",
-				"secondSection": "searching",
-				"thirdSection": "someone",
-				"fourthSection": "to play",
-				"fifthSection": "with?"
+				"firstSection": "Czy",
+				"secondSection": "szukasz",
+				"thirdSection": "kogoś",
+				"fourthSection": "do wspólnej",
+				"fifthSection": "gry?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -191,26 +190,27 @@
 		},
 		{
 			"title": "Portfolio",
+			"shortDescription": "Odkryj fascynującą kolekcję moich apliakcji. Zanurz się w świat innowacyjnych projektów. Obejrzyj moje portfolio teraz i zainspiruj się!",
 			"features": [
 				{
-					"title": "Two languages support",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Obsługa dwóch języków",
+					"desc": "Aplikacja obsługuje funkcje dwujęzyczne, obsługując zarówno użytkowników polskojęzycznych, jak i anglojęzycznych. Zapewnia to płynną obsługę użytkownikom niezależnie od ich preferencji językowych, zwiększając dostępność i użyteczność w różnych środowiskach językowych."
 				},
 				{
-					"title": "It looks nice",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Wygląda świetnie",
+					"desc": "Strona prezentuje się elegancko i nowocześnie dzięki płynnym animacjom z Framer Motion, intuicyjnym komponentom z biblioteki NextUI oraz eleganckim elementom projektowym z biblioteki Aceternity UI."
 				},
 				{
-					"title": "It looks nice",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Formularz kontaktowy",
+					"desc": "Pozwala Ci łatwo wysłać e-mail bezpośrednio z witryny. Wystarczy wypełnić formularz danymi i wiadomością, a następnie kliknąć przycisk „Wyślij”, aby zainicjować komunikację."
 				}
 			],
 			"overview": {
-				"firstSection": "Is this",
-				"secondSection": "the best",
-				"thirdSection": "portfolio site",
-				"fourthSection": "i have ever",
-				"fifthSection": "seen?"
+				"firstSection": "Czy to jest",
+				"secondSection": "najlepsze",
+				"thirdSection": "portfolio",
+				"fourthSection": "jakie kiedykolwiek",
+				"fifthSection": "widziałem?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -232,39 +232,39 @@
 		},
 		{
 			"title": "JustNoted",
+			"shortDescription": "JustNoted: wszechstronna aplikacja do notatek. Twórz, edytuj, oznaczaj ulubione i usuwaj notatki z funkcją kosza umożliwiającą ich odzyskanie. Przeglądaj historię edycji dla każdej notatki. Zintegrowany kalendarz tworzy notatki na zadania. Personalizuj notatki wybierając spośród 7 opcji kolorów. Ciesz się nowym cytatem przy logowaniu. Ustaw notatki o wyższym priorytecie w głównym menu. Wymaga utworzenia konta i logowania przez Google za pośrednictwem Firebase. Dostosuj profil i usuń konto w razie potrzeby.",
 			"features": [
 				{
-					"title": "Authentication",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Autoryzacja",
+					"desc": "Oferuje różnorodne opcje logowania, pozwalając użytkownikom uzyskać dostęp do aplikacji za pomocą swoich danych logowania lub kont Google. Bezpieczeństwo jest najważniejsze, zapewnione dzięki implementacji JWT (JSON Web Tokens), gwarantującej bezpieczne i chronione doświadczenie użytkownika."
 				},
 				{
-					"title": "Profile customization",
-					"desc": "lorem lorem lorem lorem"
-				},
-
-				{
-					"title": "Notes",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Personalizacja profilu",
+					"desc": "Dostosuj swój profil, aby odzwierciedlał Twoją osobowość, zmieniając swoją nazwę użytkownika i wybierając obraz profilowy."
 				},
 				{
-					"title": "Notes edit hisotry",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Notatki",
+					"desc": "Twórz i organizuj notatki płynnie w ramach różnych kategorii, umożliwiając skuteczne zarządzanie i łatwy dostęp do swoich myśli i zadań."
 				},
 				{
-					"title": "Integrated calendar",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Historia edycji notatek",
+					"desc": "Łatwo edytuj i śledź historię swoich notatek za pomocą funkcji historii edycji."
 				},
 				{
-					"title": "Trash system",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Zintegrowany kalendarz",
+					"desc": "Płynnie wizualizuj swoje notatki wraz z przypisanymi do nich datami, zapewniając przejrzysty przegląd harmonogramu i terminów."
+				},
+				{
+					"title": "System kosza",
+					"desc": "Zabezpiecz swoje notatki dzięki systemowi kosza, w którym usunięte notatki są przechowywane tymczasowo. Łatwo przywracaj lub trwale usuwaj notatki z kosza, zapewniając spokój i elastyczność w zarządzaniu swoimi treściami."
 				}
 			],
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"firstSection": "Czy lubisz",
+				"secondSection": "mieć wszystkie",
+				"thirdSection": "swoje myśli",
+				"fourthSection": "w jednym",
+				"fifthSection": "miejscu?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -297,18 +297,19 @@
 		},
 		{
 			"title": "Natalia-website",
+			"shortDescription": "Zobacz oszałamiające portfolio online Natalii, zawierające szczegóły dotyczące jej sesji zdjęciowych. Odkryj fascynujące galerie prezentujące jej fotografie. Strona oferuje płynne animacje, zapewniając wizualnie uderzające doświadczenie.",
 			"features": [
 				{
-					"title": "Gallery Page",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Strona Galerii",
+					"desc": "Pozwala na przeglądanie i przybliżanie zdjęć."
 				}
 			],
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "have all",
-				"thirdSection": "your thoughts",
-				"fourthSection": "in one",
-				"fifthSection": "place?"
+				"firstSection": "Czy chcesz",
+				"secondSection": "posiadać",
+				"thirdSection": "swoją",
+				"fourthSection": "własną stronę",
+				"fifthSection": "jak ta?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -335,27 +336,28 @@
 		},
 		{
 			"title": "TravelMark",
+			"shortDescription": "Sprawdź tę aplikację do śledzenia odwiedzonych i planowanych miejsc. Wykorzystuje Leaflet, Weather API z RapidAPI oraz odwrotne geokodowanie z BigDataCloud. Funkcje obejmują dodawanie i śledzenie miejsc, wybieranie dat, wyświetlanie aktualnej temperatury, oznaczanie ulubionych, pokazywanie bieżącej lokalizacji na mapie, obsługę błędów oraz zapisywanie danych w localStorage.",
 			"features": [
 				{
-					"title": "Interactive map",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Interaktywna mapa",
+					"desc": "Po prostu podwójnie kliknij, aby łatwo dodać odwiedzone lub planowane lokalizacje na interaktywnej mapie. Bez względu na to, czy dokumentujesz przeszłe przygody, czy planujesz przyszłe, to intuicyjne narzędzie ułatwia twoje doświadczenia z mapowaniem z łatwością i efektywnością."
 				},
 				{
-					"title": "Geolocation & weather API",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Geolokalizacja i pogodowe API",
+					"desc": "Bądź na bieżąco z obecną pogodą w każdym z odpowiedonych miejsc."
 				},
 				{
-					"title": "Saving visted places",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Zapisywanie odwiedzanych miejsc",
+					"desc": "Łatwo zapisuj swoje ulubione miejsca i oznaczaj je jako ulubione dla szybkiego dostępu. Bez względu na to, czy to ulubiona restauracja, malownicze miejsce czy istotny cel podróży, śledzenie twoich preferowanych miejsc jest proste i wygodne."
 				}
 			],
 
 			"overview": {
-				"firstSection": "Do you love to",
-				"secondSection": "travel",
-				"thirdSection": "and plan",
-				"fourthSection": "your every",
-				"fifthSection": "trip?"
+				"firstSection": "Czy kochasz",
+				"secondSection": "podróżować",
+				"thirdSection": "i planować",
+				"fourthSection": "każdą",
+				"fifthSection": "wycieczkę?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -377,27 +379,28 @@
 
 		{
 			"title": "Recipe-App",
+			"shortDescription": "Odkryj wszechstronną aplikację do wyszukiwania przepisów zasilaną przez Forkify API. Dzięki tej aplikacji, eksploruj szeroki zakres przepisów dostosowanych do Twoich preferencji. Wystarczy wprowadzić pożądane danie lub składnik, by odkryć świat kulinarnych możliwości. Zagłęb się głębiej w każdy przepis, aby zobaczyć wymagane składniki i krok po kroku instrukcje przygotowania. Bez względu na to, czy jesteś doświadczonym szefem kuchni czy początkującym kucharzem, ta aplikacja zapewnia narzędzia i inspirację do podniesienia poziomu Twoich kulinarnych przygód.",
 			"features": [
 				{
-					"title": "Searching for recepies",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Wyszukiwanie przepisów",
+					"desc": "Łatwo odkrywaj nowe przepisy za pomocą intuicyjnej funkcji wyszukiwania. Wystarczy wpisać nazwy potraw, aby znaleźć mnóstwo kulinarnych inspiracji na wyciągnięcie ręki."
 				},
 				{
-					"title": "Saving the favourties one",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Zapisywanie ulubionych przepisów",
+					"desc": "Łatwo zapisuj swoje ulubione przepisy dla szybkiego i łatwego dostępu. Wystarczy jedno kliknięcie, aby dodać ulubione przepisy do zakładek, zapewniając, że zawsze będą one na wyciągnięcie ręki, gdy będziesz gotowy do ugotowania czegoś pysznego."
 				},
 				{
-					"title": "Ingridents inforamtion",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Informacje o składnikach",
+					"desc": "Każdy przepis zawiera szczegółowe informacje na temat wymaganych składników, ułatwiając zebranie wszystkiego, czego potrzebujesz przed rozpoczęciem gotowania."
 				}
 			],
 
 			"overview": {
-				"firstSection": "Do you have",
-				"secondSection": "a taste",
-				"thirdSection": "for",
-				"fourthSection": "your favourite",
-				"fifthSection": "pizza?"
+				"firstSection": "Czy masz",
+				"secondSection": "ochotę",
+				"thirdSection": "na",
+				"fourthSection": "twoją ulubioną",
+				"fifthSection": "pizze?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },
@@ -419,18 +422,19 @@
 		},
 		{
 			"title": "GnNews",
+			"shortDescription": "Ta aplikacja do wiadomości dostosowuje informacje na podstawie kraju użytkownika, korzystając z interfejsu API, który wykrywa lokalizację użytkownika. Użytkownicy mogą również ręcznie wybrać kraj z listy dostępnych opcji. Strona wyświetla dostępne wiadomości oraz aktualną godzinę.",
 			"features": [
 				{
-					"title": "Latest news",
-					"desc": "lorem lorem lorem lorem"
+					"title": "Najnowsze wiadomości",
+					"desc": "Otrzymaj natychmiastowy dostęp do najnowszych nagłówków i najważniejszych wydarzeń, pozostając poinformowanym i na bieżąco z otaczającym Cię światem."
 				}
 			],
 			"overview": {
-				"firstSection": "Do you like to",
-				"secondSection": "keep up to date",
-				"thirdSection": "with news",
-				"fourthSection": "in you",
-				"fifthSection": "country?"
+				"firstSection": "Czy lubisz",
+				"secondSection": "być na bieżąco",
+				"thirdSection": "z wiadomościami",
+				"fourthSection": "w twoim",
+				"fifthSection": "kraju?"
 			},
 			"technologies": [
 				{ "alt": "HTML", "src": "/svg/html.svg" },

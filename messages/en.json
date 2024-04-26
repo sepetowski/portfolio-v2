@@ -1,5 +1,220 @@
 {
-	"INDEX": {
-		"TITLE": "Hello world!"
+	"PAGES": {
+		"HOME": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Hello, I'm",
+					"SECOND": "Jakub",
+					"THIRD": "I'm a",
+					"FOURTH": "full-stack",
+					"FIFTH": "web developer"
+				},
+				"TEXT_EFFECT": "Building bridges between imagination and technology.",
+				"BUTTONS": {
+					"WORK": "View my work",
+					"ABOUT": "About me"
+				}
+			},
+			"MAIN": {
+				"TITLE": "Some of my lates work"
+			}
+		},
+		"WORK": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Chcek out",
+					"SECOND": "some of",
+					"THIRD": "my",
+					"FOURTH": "coolest projects",
+					"FIFTH": "that I built"
+				},
+				"TEXT_EFFECT": "Forging connections between creativity and innovation.",
+				"BUTTON": "Check out"
+			},
+			"MAIN": {
+				"TITLE": "All of my projcets"
+			}
+		},
+		"ABOUT": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Do",
+					"SECOND": "you",
+					"THIRD": "want to",
+					"FOURTH": "know me",
+					"FIFTH": "better?"
+				},
+				"TEXT_EFFECT": "Building digital landscapes, pixel by pixel.",
+				"BUTTONS": {
+					"TOOLS": "Check my tools",
+					"ABOUT": "About me"
+				}
+			},
+			"MAIN": {
+				"TITLE": "About me"
+			}
+		},
+		"CONTACT": {
+			"HEADER": {
+				"TITLE": {
+					"FIRST": "Do you need a",
+					"SECOND": "beautiful website?",
+					"THIRD": "Get in",
+					"FOURTH": "touch"
+				},
+				"TEXT_EFFECT": "Let's make magic happen.",
+				"BUTTON": "Contact me"
+			},
+			"MAIN": {
+				"TITLE": "Contact me"
+			}
+		},
+		"PROJECT": {
+			"HEADER": {
+				"TEXT_EFFECT": "Passionately crafted with heart and soul.",
+				"BUTTONS": {
+					"LIVE": "Try it out!",
+					"REPO": "Repo code"
+				}
+			},
+			"MAIN": {
+				"TITLE": "Features"
+			}
+		},
+		"NOT_FOUND": {
+			"TITLE": "Uh-oh! Lost in Space?",
+			"TEXT": {
+				"FIRST": "Check the URL again or go back to",
+				"SECOND": "home page"
+			}
+		}
+	},
+	"COMPONENTS": {
+		"MY_STACK": {
+			"ALL_STACK_TTILE": "My toolbox",
+			"CREATED_WITH": "Created with"
+		},
+		"NAV": {
+			"WORK": "Work",
+			"ABOUT": "About me",
+			"CONTACT": "Contact"
+		},
+		"FOOTER": {
+			"DEPLOYED": "Deployed on"
+		},
+		"WORK_CARDS": {
+			"STUDY_FLOW": {
+				"TITLE": "StudyFlow",
+				"SUBTITLE": "Increase your productivity",
+				"ALT": "StudyFlow app"
+			},
+			"KIVI": {
+				"TITLE": "Kivi",
+				"SUBTITLE": "Social app for gamers",
+				"ALT": "Kivi app"
+			},
+			"MY_PORTFOLIO": {
+				"TITLE": "My portfolio webiste",
+				"SUBTITLE": "It is this webiste",
+				"ALT": "My portfolio webiste"
+			},
+			"JUST_NOTED": {
+				"TITLE": "JustNoted",
+				"SUBTITLE": "Manage your notes",
+				"ALT": "JustNoted app"
+			},
+			"NATALIA_SITE": {
+				"TITLE": "Natalia's portfolio website",
+				"SUBTITLE": "Made on order",
+				"ALT": "Natalia's portfolio website"
+			},
+			"TRAVEL_MARK": {
+				"TITLE": "TravelMark",
+				"SUBTITLE": "Stay organized while traveling",
+				"ALT": "TravelMark app"
+			},
+			"RECIPE_APP": {
+				"TITLE": "Recipe App",
+				"SUBTITLE": "Find the recipes you want",
+				"ALT": "Recipe App"
+			},
+			"GN_NEWS": {
+				"TITLE": "GnNews",
+				"SUBTITLE": "The lates news",
+				"ALT": "GnNews APP"
+			},
+			"BUTTON": "Check"
+		},
+		"ABOUT_ME_CARDS": {
+			"STUDENT": {
+				"TITLE": "Student",
+				"DESC": "I'm a dedicated computer science student at Silesian University of Technology. Passionate about tech and innovation, I'm always expanding my skills. With a keen problem-solving interest, I aim to make a difference in the computing world."
+			},
+			"HOBBY": {
+				"TITLE": "Student",
+				"DESC": "In my free time, I'm an avid gamer, finding joy in exploring virtual worlds and mastering gameplay. Music is another passion of mine—I love immersing myself in various genres and occasionally strumming away on my guitar, letting the melodies resonate."
+			},
+			"PROGRAMMING": {
+				"TITLE": "Programming",
+				"DESC": "In my programming endeavors, I find my true passion. Whether it's diving into complex algorithms or crafting elegant code solutions, I am deeply immersed in the world of programming. It's not just a skill but a genuine passion that drives me to continuously learn and innovate in this dynamic field."
+			}
+		},
+		"CONTACT_FORM": {
+			"NAME": {
+				"LABEL": "Your name",
+				"ERROR_MESSAGE_NO_NAME": "Please provide your name",
+				"ERROR_MESSAGE_TOO_LONG": "Name is too long"
+			},
+			"EMAIL": {
+				"LABEL": "Your email",
+				"ERROR_MESSAGE_NO_EMAIL": "Please provide your email",
+				"ERROR_MESSAGE_TOO_LONG": "Email is too long"
+			},
+			"MESSAGE": {
+				"LABEL": "Your message",
+				"ERROR_MESSAGE_NO_MESSAGE": "Please provide a message",
+				"ERROR_MESSAGE_TOO_LONG": "Your message is too long"
+			},
+			"BUTTON": {
+				"SEND": "Send me a message",
+				"SENDING": "Sending.. Please wait"
+			}
+		},
+		"EMAIL_SEND_MODAL": {
+			"ERROR": {
+				"TITLE": "Something went wrong",
+				"MESSAGE": "There was a problem during sending your message. Please try again or send me your message directly on"
+			},
+			"SEND": {
+				"TITLE": "Email was send",
+				"MESSAGE": {
+					"FIRST": "Thank you",
+					"SECOND": "for your message.",
+					"THIRD": "I will contact you as soon as possible!"
+				}
+			},
+			"BUTTON": "Close"
+		}
+	},
+	"METADATA": {
+		"ROOT": {
+			"DESCRIPTION": "Welcome to my portfolio! I'm a passionate web developer specializing in creating stunning and functional websites and applications. Explore my work and get in touch to discuss your next project. Let's bring your ideas to life!"
+		},
+		"WORK": {
+			"TITLE": "Sepetowski - My Work",
+			"DESCRIPTION": "Explore my portfolio to discover a collection of projects demonstrating my expertise in web development. From responsive websites to dynamic web applications, each project showcases meticulous attention to detail, innovative design, and seamless user experience."
+		},
+		"ABOUT": {
+			"TITLE": "Sepetowski - About Me",
+			"DESCRIPTION": "Get to know me, the person behind the code. With a background in web development and a passion for technology, I bring a unique blend of creativity, technical skills, and problem-solving abilities to every project. Learn more about my journey, skills, and interests."
+		},
+		"CONTACT": {
+			"TITLE": "Sepetowski - Contact Me",
+			"DESCRIPTION": "Connect with me to discuss your next web development project. Whether you have a specific idea in mind or need assistance brainstorming solutions, I'm here to help. Reach out today to start a conversation and turn your vision into reality."
+		},
+		"PROJECT": {
+			"NOT_FOUND": "Project not found",
+			"DESCRIPTION": "Oops! It seems like the requested project is not available. Explore my portfolio to discover other exciting projects or get in touch to inquire about specific projects or collaborations."
+		}
 	}
 }
