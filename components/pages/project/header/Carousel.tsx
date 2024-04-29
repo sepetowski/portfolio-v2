@@ -4,7 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Image } from '@nextui-org/react';
 import NextImage from 'next/image';
-import { useImageVariant } from '@/hooks/useImageVariant';
+import { useImageVariant } from '@/lib/hooks/useImageVariant';
 
 interface Props {
 	darkThemeImagesLinks: string[] | null;

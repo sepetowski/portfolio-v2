@@ -2,7 +2,7 @@
 import React from 'react';
 import { WorkCard } from './WorkCard';
 import { WorkCard as IWorkCard } from '@/types/types';
-import { useImageVariant } from '@/hooks/useImageVariant';
+import { useImageVariant } from '@/lib/hooks/useImageVariant';
 
 interface Props {
 	workCards: IWorkCard[];
