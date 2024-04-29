@@ -2,9 +2,9 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import { Project } from '@/components/pages/project/Project';
 import { Metadata } from 'next';
-import { getProjectInfo } from '@/lib/getProjectInfo';
 import { getTranslations } from 'next-intl/server';
 import { SITE_NAME } from '@/lib/constants';
+import { getProject } from '@/lib/api';
 
 interface Params {
 	params: {
@@ -17,7 +17,7 @@ export async function generateMetadata({
 	params: { locale, projectName },
 }: Params): Promise<Metadata> {
 	const [project, t] = await Promise.all([
-		getProjectInfo(projectName, locale),
+		getProject(locale, projectName),
 		getTranslations({ locale, namespace: 'METADATA.PROJECT' }),
 	]);
 
@@ -34,7 +34,7 @@ export async function generateMetadata({
 }
 
 const ProjectPage = async ({ params: { projectName, locale } }: Params) => {
-	const project = await getProjectInfo(projectName, locale);
+	const project = await getProject(locale, projectName);
 	if (!project) notFound();
 
 	return <Project projectInfo={project} />;
