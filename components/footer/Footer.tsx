@@ -50,7 +50,7 @@ export const Footer = () => {
 							className='text-sm md:text-base'
 							underline='hover'
 							href={'/contact'}>
-							{t('NAV.ABOUT')}
+							{t('NAV.CONTACT')}
 						</Link>
 					</div>
 				</div>

@@ -16,7 +16,7 @@
 				}
 			},
 			"MAIN": {
-				"TITLE": "Some of my lates work"
+				"TITLE": "Some of my latest work"
 			}
 		},
 		"WORK": {
@@ -140,7 +140,7 @@
 			},
 			"GN_NEWS": {
 				"TITLE": "GnNews",
-				"SUBTITLE": "The lates news",
+				"SUBTITLE": "The latest news",
 				"ALT": "GnNews APP"
 			},
 			"BUTTON": "Check"
