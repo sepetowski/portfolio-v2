@@ -7,6 +7,7 @@ import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { getTranslations } from 'next-intl/server';
 import { Params } from '@/types/types';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SITE_NAME } from '@/lib/constants';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -40,6 +41,7 @@ const RootLayout = ({ children, params: { locale } }: Readonly<LayoutProps>) => 
 							<Nav />
 							{children}
 							<Footer />
+							<SpeedInsights />
 						</NextTheme>
 					</NextUi>
 				</NextIntlClientProvider>
