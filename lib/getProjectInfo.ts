@@ -5,7 +5,7 @@ import path from 'path';
 export const getProjectInfo = async (projectName: string, locale: string) => {
 	try {
 		const jsonPath = path.join(process.cwd(), 'data', locale, 'project.json');
-		console.log(jsonPath);
+
 		const file = await fs.readFile(jsonPath, 'utf8');
 		if (!file) return null;
 
