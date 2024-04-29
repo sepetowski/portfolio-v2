@@ -94,17 +94,32 @@ export const Nav = () => {
 
 			<NavbarMenu>
 				<NavbarMenuItem className='font-extralight'>
-					<Link className='w-full' href='/work'>
+					<Link
+						onClick={() => {
+							setIsOpen(false);
+						}}
+						className='w-full'
+						href='/work'>
 						{t('WORK')}
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem className='font-extralight'>
-					<Link className='w-full' href='/about'>
+					<Link
+						onClick={() => {
+							setIsOpen(false);
+						}}
+						className='w-full'
+						href='/about'>
 						{t('ABOUT')}
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem className='font-extralight'>
-					<Link className='w-full' href='/contact'>
+					<Link
+						onClick={() => {
+							setIsOpen(false);
+						}}
+						className='w-full'
+						href='/contact'>
 						{t('CONTACT')}
 					</Link>
 				</NavbarMenuItem>
