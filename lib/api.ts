@@ -7,11 +7,12 @@ export const domain =
 export const getProject = async (locale: string, projectName: string) => {
 	try {
 		const res = await fetch(
-			`http://localhost:3000/api/getProjectInfo?locale=${locale}&projectName=${projectName}`,
+			`${domain}/api/getProjectInfo?locale=${locale}&projectName=${projectName}`,
 			{
 				method: 'GET',
 			}
 		);
+
 		if (!res.ok) {
 			return notFound();
 		}
